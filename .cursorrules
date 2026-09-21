@@ -1,0 +1,44 @@
+# Portfolio development rules
+
+## Project
+- Hemayet's portfolio: Salesforce, AI agents, and engineering projects.
+- Use the versions installed in package-lock.json.
+- Follow AGENTS.md and read relevant bundled Next.js documentation
+  in node_modules/next/dist/docs before changing framework code.
+
+## Structure
+- Routes and layouts: src/app/
+- Components: src/components/[component-name]/[ComponentName].tsx
+- Shared types: src/types/index.ts
+- Constants and utilities: src/utils/
+- Import alias: @/* maps to src/*
+- Keep public assets and configuration files at the project root.
+
+## Code
+- Use strict TypeScript; avoid any and import types with import type.
+- Use PascalCase for components and camelCase for functions.
+- Use UPPER_SNAKE_CASE for shared constants.
+- Add 'use client' only when client-side functionality requires it.
+- Use next/link for internal navigation.
+- Use Tailwind utilities and responsive layouts.
+- Preserve semantic HTML, keyboard access, and visible focus styles.
+- Keep secrets out of source code and Git.
+
+## Content
+- Use verified facts and contact links.
+- Identify simulations and fictional companies clearly.
+- Do not present planned or unfinished work as completed delivery.
+- Describe projects through problem, solution, technology, and evidence.
+- Keep placeholder content clearly labeled until replaced.
+
+## Verification
+- Run npm run lint and npm run build after code changes.
+- Check affected routes and links in the browser.
+- Check mobile layouts when changing the UI.
+- Add meaningful tests for new behavior when appropriate.
+- Do not add dependencies or change configuration without a concrete need.
+
+## Git
+- Inspect the diff before committing.
+- Use descriptive commits such as feat:, fix:, docs:, or chore:.
+- Never commit node_modules, .next, credentials, or private environment files.
