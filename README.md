@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hemayet — Portfolio
 
-## Getting Started
+An in-progress portfolio website for self-directed Salesforce, AI agent
+development and engineering projects.
 
-First, run the development server:
+## Current status
+
+The application foundation is implemented:
+
+- Shared navigation and site metadata.
+- Home, Projects, Skills and About routes.
+- Shared TypeScript types and site constants.
+- Development rules in AGENTS.md and .cursorrules.
+
+The homepage still contains the Next.js starter content. Projects, Skills
+and About currently contain placeholder text. Project case studies and
+the finished visual design have not been implemented.
+
+This repository is separate from the existing `hossainconsulting/portfolio`
+website. Replacing that site or deploying this application is not part of
+the completed foundation.
+
+## Technology
+
+- Next.js App Router
+- React and TypeScript
+- Tailwind CSS
+- ESLint
+
+Use package.json and package-lock.json as the source of truth for dependency
+versions. The foundation was verified locally with Node.js 24 and npm 11.
+
+## Local development
+
+From the repository root:
 
 ```bash
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Verification
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+Both checks passed for the foundation implementation. Home, Projects,
+Skills and About were also checked in the browser.
 
-To learn more about Next.js, take a look at the following resources:
+After UI changes, check affected routes, links, keyboard navigation and
+mobile layouts. No automated application test suite has been added yet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+src/
+  app/
+    layout.tsx
+    page.tsx
+    globals.css
+    projects/page.tsx
+    skills/page.tsx
+    about/page.tsx
+  components/
+    nav/Nav.tsx
+  types/
+    index.ts
+  utils/
+    constants.ts
+public/
+```
 
-## Deploy on Vercel
+Application code belongs under src/. Public assets and configuration
+files remain at the repository root.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development guidance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Read AGENTS.md and .cursorrules before making changes. For framework code,
+consult the relevant documentation bundled in node_modules/next/dist/docs/.
+
+Use verified facts and supporting evidence in portfolio content.
+Clearly identify fictional companies, simulations and unfinished work.
+Keep credentials and private environment files out of Git.
+
+## Planned work
+
+- [ ] Replace the starter homepage with a portfolio introduction.
+- [ ] Add project case studies with evidence and limitations.
+- [ ] Replace Skills and About placeholders with verified content.
+- [ ] Refine the responsive design and accessibility.
+- [ ] Document deployment once a deployment approach is implemented.
