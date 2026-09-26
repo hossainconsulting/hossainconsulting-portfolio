@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-09-26T07:06:46.467974+00:00",
+  "checks": [
+    {
+      "url": "https://hemayethossain.com/",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation"
+    },
+    {
+      "url": "https://hemayethossain.com/about",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation"
+    },
+    {
+      "url": "https://hemayethossain.com/projects",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation"
+    },
+    {
+      "url": "https://hemayethossain.com/skills",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation"
+    },
+    {
+      "url": "https://hemayethossain.com/resume",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation"
+    },
+    {
+      "url": "https://hemayethossain.com/privacy",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation"
+    },
+    {
+      "url": "https://hemayethossain.com/robots.txt",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation",
+      "content": "User-Agent: *\nAllow: /\n\nSitemap: https://hemayethossain.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://hemayethossain.com/sitemap.xml",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "explicit Vercel IP; normal TLS validation",
+      "urls": [
+        "https://hemayethossain.com",
+        "https://hemayethossain.com/projects",
+        "https://hemayethossain.com/about",
+        "https://hemayethossain.com/skills",
+        "https://hemayethossain.com/resume",
+        "https://hemayethossain.com/privacy"
+      ]
+    },
+    {
+      "url": "https://hossainconsulting.com/",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "system DNS"
+    },
+    {
+      "url": "https://hossainconsulting.com/privacy",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "system DNS"
+    },
+    {
+      "url": "https://hossainconsulting.com/robots.txt",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "system DNS",
+      "content": "User-Agent: *\nAllow: /\n\nSitemap: https://hossainconsulting.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://hossainconsulting.com/sitemap.xml",
+      "status": "200",
+      "exit": 0,
+      "dns_method": "system DNS",
+      "urls": [
+        "https://hossainconsulting.com",
+        "https://hossainconsulting.com/privacy"
+      ]
+    }
+  ]
+}
