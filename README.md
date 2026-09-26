@@ -93,3 +93,15 @@ Keep credentials and private environment files out of Git.
 - [ ] Replace Skills and About placeholders with verified content.
 - [ ] Refine the responsive design and accessibility.
 - [ ] Document deployment once a deployment approach is implemented.
+
+
+## AI contributor credit
+
+**OpenAI Codex** is credited as an AI-assisted contributor for authorised
+repository work under Hemayet Hossain's direction. This includes assistance
+with documentation and repository maintenance; implementation or validation
+contributions are recorded in the relevant commits and task evidence.
+
+Hemayet Hossain remains the project owner and decision-maker. This credit does
+not represent a separate GitHub account or collaborator invitation, and does
+not change existing authorship, licensing or project completion claims.
