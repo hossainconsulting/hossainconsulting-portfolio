@@ -1,99 +1,40 @@
-# Hemayet — Portfolio
+# Hemayet Hossain & Hossain Consulting
 
-An in-progress portfolio website for self-directed Salesforce, AI agent
-development and engineering projects.
+One Next.js application serves two connected public websites:
 
-## Current status
+- https://hemayethossain.com — personal Salesforce portfolio, background, skills and recruitment résumé overview.
+- https://hossainconsulting.com — developing CRM and automation practice for trade and home-service businesses.
+- Both link to the existing https://portfolio.hossainconsulting.com evidence hub, which remains a separate project.
 
-The application foundation is implemented:
+## Content and routing
 
-- Shared navigation and site metadata.
-- Home, Projects, Skills and About routes.
-- Shared TypeScript types and site constants.
-- Development rules in AGENTS.md and .cursorrules.
+`src/lib/site.ts` reads the request Host header. The agency apex and www hostnames receive the agency homepage and navigation; other hosts receive the personal site. Metadata, canonical URLs, robots and sitemaps use fixed domain constants. No user-supplied host is interpolated into canonical URLs.
 
-The homepage still contains the Next.js starter content. Projects, Skills
-and About currently contain placeholder text. Project case studies and
-the finished visual design have not been implemented.
+Projects clearly distinguish simulations, planning and unfinished implementation. Contact buttons open an email composer; no enquiry database or form backend is present. The résumé page links the existing public résumé repository and accepts application résumé requests by email.
 
-This repository is separate from the existing `hossainconsulting/portfolio`
-website. Replacing that site or deploying this application is not part of
-the completed foundation.
+## Development and verification
 
-## Technology
+Use Node.js 24 and the pinned lockfile:
 
-- Next.js App Router
-- React and TypeScript
-- Tailwind CSS
-- ESLint
-
-Use package.json and package-lock.json as the source of truth for dependency
-versions. The foundation was verified locally with Node.js 24 and npm 11.
-
-## Local development
-
-From the repository root:
-
-```bash
+```sh
 npm ci
 npm run dev
-```
-
-Open http://localhost:3000 in your browser.
-
-## Verification
-
-```bash
 npm run lint
 npm run build
+npm run start -- --port 3100
 ```
 
-Both checks passed for the foundation implementation. Home, Projects,
-Skills and About were also checked in the browser.
+Localhost shows the personal site. Test agency rendering with an HTTP request carrying `Host: hossainconsulting.com`. Check desktop and mobile navigation after UI changes. Read AGENTS.md, .cursorrules and the bundled Next.js documentation before framework changes.
 
-After UI changes, check affected routes, links, keyboard navigation and
-mobile layouts. No automated application test suite has been added yet.
+## Hosting
 
-## Project structure
+The existing Vercel project `hossainconsulting-portfolio` deploys the GitHub main branch. Both custom domains use the same production deployment. Cloudflare remains the authoritative DNS provider. The personal apex points to Vercel; its www alias redirects to the apex through Vercel. Refer to dated evidence for actual deployment and DNS verification status.
 
-```text
-src/
-  app/
-    layout.tsx
-    page.tsx
-    globals.css
-    projects/page.tsx
-    skills/page.tsx
-    about/page.tsx
-  components/
-    nav/Nav.tsx
-  types/
-    index.ts
-  utils/
-    constants.ts
-public/
-```
+Roll back application changes by reverting their Git commit and deploying the revert, or restoring a previously verified Vercel production deployment. DNS records do not need to change for application rollbacks. Do not replace the separate portfolio subdomain.
 
-Application code belongs under src/. Public assets and configuration
-files remain at the repository root.
+## Evidence
 
-## Development guidance
-
-Read AGENTS.md and .cursorrules before making changes. For framework code,
-consult the relevant documentation bundled in node_modules/next/dist/docs/.
-
-Use verified facts and supporting evidence in portfolio content.
-Clearly identify fictional companies, simulations and unfinished work.
-Keep credentials and private environment files out of Git.
-
-## Planned work
-
-- [ ] Replace the starter homepage with a portfolio introduction.
-- [ ] Add project case studies with evidence and limitations.
-- [ ] Replace Skills and About placeholders with verified content.
-- [ ] Refine the responsive design and accessibility.
-- [ ] Document deployment once a deployment approach is implemented.
-
+Dated checks and limitations are under `evidence/`. Search indexing, Search Console registration and inbound mail for the personal domain are not configured by this website implementation.
 
 ## AI contributor credit
 

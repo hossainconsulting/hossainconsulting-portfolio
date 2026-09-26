@@ -1,8 +1,31 @@
-export default function Page() {
+import { ProjectList, Contact, PortfolioLink } from "@/components/Sections";
+import { pageMetadata } from "@/lib/site";
+export async function generateMetadata() {
+  return pageMetadata(
+    "/projects",
+    "Selected Work | Hemayet Hossain",
+    "Self-directed Salesforce and AI portfolio projects, with clear status and links to source evidence.",
+  );
+}
+export default function Projects() {
   return (
-    <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-12">
-      <h1 className="text-3xl font-bold">Projects</h1>
-      <p className="mt-4">Project case studies will be added here.</p>
+    <main id="main">
+      <section className="wrap section">
+        <p className="eyebrow">WORK IN THE OPEN</p>
+        <h1 className="page-title">
+          The projects.
+          <br />
+          <em>The learning.</em>
+        </h1>
+        <p className="intro">
+          Fictional business scenarios. Real practice and documentation. These
+          projects are not client engagements, and planned features are not
+          completed implementations.
+        </p>
+        <ProjectList />
+        <PortfolioLink />
+      </section>
+      <Contact />
     </main>
   );
 }
