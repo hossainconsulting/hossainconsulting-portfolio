@@ -4,8 +4,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const s = await getSite();
   return (
     s.agency
-      ? ["/", "/privacy"]
-      : ["/", "/projects", "/about", "/skills", "/resume", "/privacy"]
+      ? ["/", "/privacy", "/legal"]
+      : ["/", "/projects", "/about", "/skills", "/resume", "/privacy", "/legal"]
   ).map((path) => ({
     url: s.origin + (path === "/" ? "" : path),
     changeFrequency: "monthly",

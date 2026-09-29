@@ -38,6 +38,7 @@ export default async function RootLayout({
               </a>
               <a href={`mailto:${EMAIL}`}>Email ↗</a>
               <a href="/privacy">Privacy</a>
+              <a href="/legal">Terms & notices</a>
             </div>
           </div>
           <div className="wrap footer-bottom">

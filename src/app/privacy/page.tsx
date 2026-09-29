@@ -11,7 +11,7 @@ export default function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 26 September 2026.</p>
+      <p>Updated 30 September 2026.</p>
       <p>
         These websites introduce Hemayet Hossain and Hossain Consulting. This
         version has no account registration, enquiry form, advertising pixels or
@@ -32,6 +32,9 @@ export default function Privacy() {
         other linked sites operate under their own privacy policies.
       </p>
       <h2>Questions</h2>
+      <p>Email enquiries are handled through Google’s email service. Information may be processed by infrastructure and email providers outside Australia under their own service arrangements. These providers’ processing is separate from the public portfolio content.</p>
+      <p>You can choose what to include in an enquiry. Request access, correction or deletion of information you have sent using the contact below; explain which correspondence your request concerns. Some records may need to be retained to resolve an enquiry, meet a legal obligation or address a dispute. Please contact us first if you have a privacy concern so it can be investigated.</p>
+      <p>This notice describes the current informational sites. New forms, analytics, subscriptions or services require a review of this notice before introduction. See also the <a href="/legal">website terms, cookie notice and portfolio disclaimer</a>.</p>
       <p>
         For questions about information you have sent or to request correction
         or deletion, contact <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.
