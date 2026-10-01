@@ -799,3 +799,17 @@ p {
     grid-template-columns: 1fr;
   }
 }
+.card .price {
+  font-size: 30px;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+  margin: 16px 0 4px;
+}
+.card .price small {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+.card .price-note {
+  font-size: 12px;
+}

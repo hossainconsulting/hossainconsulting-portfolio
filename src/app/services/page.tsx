@@ -23,6 +23,10 @@ const packages = [
       "Follow-up reminders so nothing goes quiet",
       "A short how-to guide for you and your team",
     ],
+    scope:
+      "Up to 5 users, 1 pipeline, 3 reminder automations, 1 training session, 14 days of support",
+    founding: 1500,
+    standard: 2400,
   },
   {
     n: "02",
@@ -34,6 +38,10 @@ const packages = [
       "Clear handover points between office and field",
       "A written record of what changed and why",
     ],
+    scope:
+      "Process map, clean-up of up to 2,000 records, written change record",
+    founding: 950,
+    standard: 1500,
   },
   {
     n: "03",
@@ -45,7 +53,47 @@ const packages = [
       "Written limits: what it does well and where it fails",
       "A clear keep, change or drop recommendation",
     ],
+    scope:
+      "1 workflow over 2–3 weeks, a person approves every customer-facing step",
+    founding: 1200,
+    standard: 1800,
   },
+];
+
+const aud = (n: number) =>
+  "$" + n.toLocaleString("en-AU", { maximumFractionDigits: 0 });
+const incGst = (n: number) => aud(Math.round(n * 1.1));
+
+const journey = [
+  ["Book a free call", "Pick a 20-minute time online, or email if you prefer."],
+  [
+    "Free call",
+    "We talk about the workflow that costs you the most time. No preparation needed.",
+  ],
+  [
+    "Free workflow snapshot",
+    "Within 3 business days: a one-page summary with up to 3 quick wins. Yours to keep, whether or not you go ahead.",
+  ],
+  [
+    "Written scope & fixed quote",
+    "What will be built, the price (+GST), the timeline and what’s not included. Nothing starts until you approve it.",
+  ],
+  [
+    "Deposit & kick-off",
+    "50% deposit on a tax invoice. We agree a weekly check-in time.",
+  ],
+  [
+    "Build & test",
+    "Built in small steps. A short update every week, and you test each part before we move on.",
+  ],
+  [
+    "Handover",
+    "A live walkthrough, a how-to guide and a record of every change. The final 50% is invoiced at handover.",
+  ],
+  [
+    "14 days of support",
+    "Questions and fixes for anything in scope. After that, an optional care plan.",
+  ],
 ];
 
 export default async function Services() {
@@ -61,10 +109,10 @@ export default async function Services() {
           <em>No surprises.</em>
         </h1>
         <p className="intro">
-          Each package starts with a free 20-minute call. If it’s a good fit,
-          you get a written scope and a fixed price before any work begins.
-          Usually built in Salesforce, or a simpler tool if that suits your
-          business better.
+          Each package starts with a free 20-minute call and a free one-page
+          workflow snapshot. If it’s a good fit, you get a written scope and a
+          fixed price before any work begins. Usually built in Salesforce, or a
+          simpler tool if that suits your business better.
         </p>
         <div className="actions">
           <a className="button" href={BOOK_CLIENT_CALL}>
@@ -96,34 +144,52 @@ export default async function Services() {
                 ))}
               </ul>
               <p className="package-meta">
-                Fixed price, quoted after the free call
+                <strong>Includes:</strong> {p.scope}
+              </p>
+              <p className="price">
+                {aud(p.founding)} <small>+ GST</small>
+              </p>
+              <p className="price-note">
+                Founding-client price ({incGst(p.founding)} inc. GST). Standard
+                price {aud(p.standard)} + GST.
               </p>
             </article>
           ))}
         </div>
       </section>
-      <section className="section shaded">
+      <section className="wrap section">
+        <div className="honest-note">
+          <p>
+            <strong>Optional care plan:</strong> up to 2 hours a month of fixes
+            and small changes. $200 + GST a month for founding clients ($220
+            inc. GST); standard $300 + GST. Cancel any month.
+          </p>
+          <p>
+            Prices are for the scope listed. Anything extra is quoted in writing
+            first. Software licences (for example Salesforce or ServiceM8) are
+            paid by you directly to the provider, and I’ll tell you if a cheaper
+            tool suits you better.
+          </p>
+        </div>
+      </section>
+      <section className="section shaded" id="how-it-works">
         <div className="wrap">
-          <p className="eyebrow">HOW IT WORKS</p>
-          <h2>Four steps. You decide at each one.</h2>
+          <p className="eyebrow">FROM BOOKING TO HANDOVER</p>
+          <h2>Every step, before you commit.</h2>
           <ol className="steps">
-            <li>
-              <strong>Free call</strong>20 minutes on the workflow that costs
-              you the most time.
-            </li>
-            <li>
-              <strong>Written scope</strong>What will be built, a fixed price
-              and a timeline, agreed before work starts.
-            </li>
-            <li>
-              <strong>Build & test</strong>Built in small steps and checked with
-              you along the way.
-            </li>
-            <li>
-              <strong>Handover</strong>A walkthrough, a short guide and a record
-              of every change.
-            </li>
+            {journey.map(([t, d], i) => (
+              <li key={t}>
+                <strong>
+                  {String(i + 1).padStart(2, "0")} · {t}
+                </strong>
+                {d}
+              </li>
+            ))}
           </ol>
+          <p className="fine">
+            Hossain Consulting is registered for GST (ABN 23 732 235 722). All
+            invoices are tax invoices.
+          </p>
         </div>
       </section>
       <section className="wrap section">
@@ -136,9 +202,10 @@ export default async function Services() {
             no paid client engagements to date.
           </p>
           <p>
-            So I’m taking on a small number of founding clients at a reduced
-            rate. In return, I ask for honest feedback and, only if you agree,
-            permission to describe the work. It can be anonymised if you prefer.
+            So my first 3 clients get founding-client prices, about 35% below
+            standard. In return, I ask for honest feedback and, only if you
+            agree, permission to describe the work. It can be anonymised if you
+            prefer.
           </p>
           <p>
             If your problem isn’t a good fit for what I do, I’ll tell you on the

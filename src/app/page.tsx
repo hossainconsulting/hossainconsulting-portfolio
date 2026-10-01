@@ -1,7 +1,6 @@
 import {
   AGENCY,
   BOOK_CLIENT_CALL,
-  BOOK_RECRUITER_CALL,
   PERSONAL,
   GITHUB,
   getSite,
@@ -199,8 +198,8 @@ export default async function Home() {
                 <a className="button" href="/projects">
                   Explore my work <span>↗</span>
                 </a>
-                <a className="text-link" href={BOOK_RECRUITER_CALL}>
-                  Recruiter? Book a 15-min chat ↗
+                <a className="text-link" href="/resume#hiring-process">
+                  Recruiter? See how hiring me works ↗
                 </a>
                 <a className="text-link" href="/resume">
                   View my résumé ↗

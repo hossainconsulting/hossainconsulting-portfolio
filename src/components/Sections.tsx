@@ -59,7 +59,7 @@ export function Contact({ agency = false }: { agency?: boolean }) {
             className="button light"
             href={agency ? BOOK_CLIENT_CALL : BOOK_RECRUITER_CALL}
           >
-            {agency ? "Book a free 20-min call" : "Book a 15-min chat"}{" "}
+            {agency ? "Book a free 20-min call" : "Book a 20-min chat"}{" "}
             <span>↗</span>
           </a>
           <a
