@@ -4,7 +4,7 @@ export default async function Nav() {
   const { agency, name } = await getSite();
   const links = agency
     ? [
-        { href: "/#services", label: "Focus areas" },
+        { href: "/services", label: "Services" },
         { href: "/blog", label: "Blog" },
         { href: PORTFOLIO, label: "Portfolio ↗" },
         { href: PERSONAL, label: "Meet the founder ↗" },

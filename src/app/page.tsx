@@ -1,4 +1,12 @@
-import { AGENCY, PERSONAL, GITHUB, getSite, pageMetadata } from "@/lib/site";
+import {
+  AGENCY,
+  BOOK_CLIENT_CALL,
+  BOOK_RECRUITER_CALL,
+  PERSONAL,
+  GITHUB,
+  getSite,
+  pageMetadata,
+} from "@/lib/site";
 import { Contact, ProjectList, PortfolioLink } from "@/components/Sections";
 export async function generateMetadata() {
   const s = await getSite();
@@ -68,16 +76,16 @@ export default async function Home() {
                 a time.
               </p>
               <div className="actions">
-                <a className="button" href="#contact">
-                  Discuss your workflow ↗
+                <a className="button" href={BOOK_CLIENT_CALL}>
+                  Book a free 20-min call ↗
                 </a>
-                <a className="text-link" href="#services">
-                  Explore the focus areas ↓
+                <a className="text-link" href="/services">
+                  See services & how it works ↗
                 </a>
               </div>
               <p className="fine">
-                A developing practice. Current portfolio work is simulated, with
-                no client engagements to date.
+                A new practice taking on founding clients. Current portfolio
+                work is simulated, with no client engagements to date.
               </p>
             </div>
             <div className="system-card">
@@ -171,9 +179,9 @@ export default async function Home() {
         <>
           <section className="hero wrap">
             <div>
-              <p className="eyebrow">
-                <span className="dot" /> SALESFORCE ADMINISTRATOR CANDIDATE ·
-                SYDNEY
+              <p className="status-strip">
+                <span className="dot" /> Open to Salesforce Administrator & CRM
+                support roles · Sydney
               </p>
               <h1>
                 Technology makes
@@ -190,6 +198,9 @@ export default async function Home() {
               <div className="actions">
                 <a className="button" href="/projects">
                   Explore my work <span>↗</span>
+                </a>
+                <a className="text-link" href={BOOK_RECRUITER_CALL}>
+                  Recruiter? Book a 15-min chat ↗
                 </a>
                 <a className="text-link" href="/resume">
                   View my résumé ↗

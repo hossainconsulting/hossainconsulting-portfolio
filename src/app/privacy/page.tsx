@@ -11,7 +11,7 @@ export default function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 30 September 2026.</p>
+      <p>Updated 1 October 2026.</p>
       <p>
         These websites introduce Hemayet Hossain and Hossain Consulting. This
         version has no account registration, enquiry form, advertising pixels or
@@ -23,6 +23,14 @@ export default function Privacy() {
         receive the information you choose to include and use it to respond and
         discuss your request. Please do not send passwords, payment details or
         sensitive customer records.
+      </p>
+      <h2>Booking a call</h2>
+      <p>
+        “Book a call” buttons open Calendly, an external scheduling service. If
+        you book, Calendly collects the details you enter (such as your name,
+        email address and any notes) and shares them with me so I can prepare
+        for and hold the call. Calendly and the video service you choose
+        operate under their own privacy policies.
       </p>
       <h2>Hosting and external links</h2>
       <p>

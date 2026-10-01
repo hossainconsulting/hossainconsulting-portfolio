@@ -1,4 +1,4 @@
-import { pageMetadata, EMAIL } from "@/lib/site";
+import { pageMetadata, EMAIL, BOOK_RECRUITER_CALL } from "@/lib/site";
 export async function generateMetadata() {
   return pageMetadata(
     "/resume",
@@ -21,7 +21,13 @@ export default function Resume() {
         Bachelor of Information Technology · Four Salesforce certifications
       </p>
       <div className="actions">
-        <a className="button" href={`mailto:${EMAIL}?subject=Resume%20request`}>
+        <a className="button" href={BOOK_RECRUITER_CALL}>
+          Book a 15-min chat ↗
+        </a>
+        <a
+          className="text-link"
+          href={`mailto:${EMAIL}?subject=Resume%20request`}
+        >
           Request my application résumé ↗
         </a>
         <a

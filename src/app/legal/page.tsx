@@ -9,9 +9,9 @@ export default async function Legal() {
   return <main id="main" className="wrap section prose">
     <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
     <h1 className="page-title">Terms & notices.</h1>
-    <p>Updated 30 September 2026. These notices apply to {site.origin}.</p>
+    <p>Updated 1 October 2026. These notices apply to {site.origin}.</p>
     <h2>About this website</h2>
-    <p>{site.agency ? "Hossain Consulting is a developing CRM and automation practice presented by Hemayet Hossain. The current website introduces areas of interest and simulated portfolio work; it does not provide an online checkout or a live automation service." : "This is Hemayet Hossain’s professional portfolio, introducing his qualifications, learning projects and career interests."}</p>
+    <p>{site.agency ? "Hossain Consulting is a developing CRM and automation practice presented by Hemayet Hossain. The website describes fixed-scope services that are available only by separately agreed written scope, and simulated portfolio work. It does not provide an online checkout or a live automation service." : "This is Hemayet Hossain’s professional portfolio, introducing his qualifications, learning projects and career interests."}</p>
     <h2>Website use</h2>
     <p>You may view this website and share links for legitimate personal or business purposes. Do not interfere with its operation, attempt unauthorised access or misuse another person’s information. Website content does not grant permission to use third-party trademarks or imply endorsement.</p>
     <h2>Portfolio and information disclaimer</h2>

@@ -5,6 +5,10 @@ export const AGENCY = "https://hossainconsulting.com";
 export const PORTFOLIO = "https://portfolio.hossainconsulting.com";
 export const EMAIL = "hossainconsulting@gmail.com";
 export const GITHUB = "https://github.com/hossainconsulting";
+export const BOOK_CLIENT_CALL =
+  "https://calendly.com/hemayet_hossain/free-20-minute-workflow-chat";
+export const BOOK_RECRUITER_CALL =
+  "https://calendly.com/hemayet_hossain/recruiter-hiring-manager-chat";
 export async function getSite() {
   const host = ((await headers()).get("host") || "")
     .split(":")[0]
