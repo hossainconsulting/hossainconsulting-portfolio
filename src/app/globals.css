@@ -684,3 +684,40 @@ p {
     transition: none !important;
   }
 }
+.blog-card {
+  display: block;
+}
+.blog-card:hover {
+  border-color: var(--ink);
+  text-decoration: none;
+}
+.post-list {
+  border-top: 1px solid var(--line);
+  margin-bottom: 35px;
+}
+.post-list > .eyebrow {
+  margin-top: 30px;
+}
+.post-item {
+  display: block;
+  border-bottom: 1px solid var(--line);
+  padding: 24px 0;
+}
+.post-item:hover {
+  text-decoration: none;
+}
+.post-item:hover h3 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.post-item time {
+  font-size: 12px;
+  color: var(--muted);
+}
+.post-item h3 {
+  font-size: 26px;
+  margin: 6px 0 8px;
+}
+.post-item p {
+  margin-bottom: 0;
+}

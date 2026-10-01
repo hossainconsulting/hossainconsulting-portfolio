@@ -12,6 +12,13 @@ One Next.js application serves two connected public websites:
 
 Projects clearly distinguish simulations, planning and unfinished implementation. Contact buttons open an email composer; no enquiry database or form backend is present. The résumé page links the existing public résumé repository and accepts application résumé requests by email.
 
+## Blog
+
+Both sites have a `/blog` with five series each, defined in `src/lib/blog.ts`. The host decides which series appear; a series URL returns 404 on the other site.
+
+- Add a series: append to `series` with a unique `slug` and `site` (`personal` or `agency`).
+- Publish a post: append to `posts` with an existing series slug, a `YYYY-MM-DD` date, a summary and body paragraphs. It appears at `/blog/<series>/<slug>`, in listings and in that site's sitemap.
+
 ## Development and verification
 
 Use Node.js 24 and the pinned lockfile:
