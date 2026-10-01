@@ -18,6 +18,7 @@ Both sites have a `/blog` with five series each, defined in `src/lib/blog.ts`. T
 
 - Add a series: append to `series` with a unique `slug` and `site` (`personal` or `agency`).
 - Publish a post: append to `posts` with an existing series slug, a `YYYY-MM-DD` date, a summary and body paragraphs. It appears at `/blog/<series>/<slug>`, in listings and in that site's sitemap.
+- Automatic drafts: push a `blog/<name>` tag in a watched project repo when work is complete. A daily routine drafts a personal and an agency post from that repo's evidence and opens a draft PR for review. See `automation/blog-from-projects.md`.
 
 ## Development and verification
 

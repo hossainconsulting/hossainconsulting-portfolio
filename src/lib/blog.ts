@@ -4,6 +4,8 @@
 // To add a series: append an entry to `series` with a unique slug.
 // To publish a post: append an entry to `posts` naming an existing series.
 // Posts are plain paragraphs; no CMS or database is involved.
+// Project-completion posts are drafted automatically: see
+// automation/blog-from-projects.md.
 
 export type BlogSite = "personal" | "agency";
 
@@ -21,6 +23,8 @@ export type Post = {
   date: string; // YYYY-MM-DD
   summary: string;
   body: string[];
+  // Set by the project-completion automation; used to avoid duplicate posts.
+  source?: { repo: string; tag: string };
 };
 
 export const series: Series[] = [
