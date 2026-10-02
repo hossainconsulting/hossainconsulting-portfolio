@@ -424,6 +424,13 @@ p {
   font-size: 11px;
   flex-wrap: wrap;
 }
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  padding-bottom: 30px;
+  font-size: 11px;
+}
 .footer-bottom {
   padding-top: 20px;
   padding-bottom: 20px;
