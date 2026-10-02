@@ -102,7 +102,41 @@ export const series: Series[] = [
   },
 ];
 
-export const posts: Post[] = [];
+export const posts: Post[] = [
+  {
+    series: "working-in-public",
+    slug: "why-i-am-writing-in-public",
+    title: "Why I’m writing in public",
+    date: "2026-10-02",
+    summary:
+      "What this blog is for, what you’ll find here, and the rules I’m holding myself to.",
+    body: [
+      "I’m looking for my first Salesforce Administrator or CRM support role. A résumé can list skills, but it can’t show how someone thinks through a problem. Writing can.",
+      "So this blog is where I’ll explain what I build and why. Most of my portfolio work so far is self-directed: practice projects built on fictional business scenarios. I’ll always say so. Where a project uses scenario numbers, they are inputs I was given, not results I achieved.",
+      "You’ll find five series here. Forward Notes covers where I’m heading and what I’m studying. Hemayet Builds walks through finished projects. The Build Log has short, dated updates. Notes from the Org is about everyday admin practice. Working in Public, this series, is for reflections on learning in the open.",
+      "A few rules I’m holding myself to. I’ll only describe work that exists in a repository you can check. If something is planned, I’ll call it planned. If something didn’t work, I’ll say that too, because the fix is usually the most useful part.",
+      "If you’re a recruiter or hiring manager, the posts are meant to save you time: you can see how I approach a problem before we ever talk. If you have questions, the résumé page explains how hiring me works, step by step.",
+    ],
+  },
+  {
+    series: "the-automation-brief",
+    slug: "every-enquiry-gets-a-reply",
+    title: "Every enquiry gets a reply: a simple follow-up setup",
+    date: "2026-10-02",
+    summary:
+      "A plain starting point for trade and home-service businesses that lose track of enquiries across phone, text, email and web forms.",
+    body: [
+      "Most small service businesses don’t lose work because they’re bad at the job. They lose it because an enquiry came in on a busy day and nobody got back to the customer.",
+      "Enquiries arrive in too many places: a missed call, a text to the owner’s mobile, an email, a web form, a message on social media. Each one is easy to answer. Keeping track of all of them, every day, is the hard part.",
+      "The fix doesn’t start with software. It starts with three questions. Where do enquiries come in? Who is responsible for the first reply? How soon should that reply happen? Write the answers down. That alone often shows where things slip.",
+      "Next, give every enquiry one home. That might be a CRM, a job-management app or, to begin with, a shared spreadsheet. The tool matters less than the rule: if it isn’t written down there, it doesn’t exist.",
+      "Then add a few simple stages, such as new enquiry, quote sent, booked and lost. Keep it short. If your team can’t remember the stages, there are too many.",
+      "Only now is automation worth adding. A reminder when an enquiry has had no reply by the end of the day. A nudge when a quote has gone quiet for a few days. Small, boring automations like these are often the most useful ones.",
+      "What to watch for: don’t automate a messy process, or you’ll just make the mess faster. And keep a person in charge of anything a customer sees.",
+      "If you’d like a second pair of eyes on how enquiries move through your business, a free 20-minute call is a good place to start. You’ll get a one-page summary afterwards, whether or not we work together.",
+    ],
+  },
+];
 
 export const siteKey = (agency: boolean): BlogSite =>
   agency ? "agency" : "personal";
