@@ -23,6 +23,9 @@ export type Post = {
   date: string; // YYYY-MM-DD
   summary: string;
   body: string[];
+  sections?: { heading: string; paragraphs: string[] }[];
+  references?: { label: string; url: string }[];
+  image?: { src: string; alt: string; width: number; height: number };
   // Set by the project-completion automation; used to avoid duplicate posts.
   source?: { repo: string; tag: string };
 };
@@ -103,6 +106,52 @@ export const series: Series[] = [
 ];
 
 export const posts: Post[] = [
+  {
+    series: "forward-notes",
+    slug: "salesforce-to-forward-deployed-engineer",
+    title: "From Salesforce to forward deployed engineering",
+    date: "2026-10-02",
+    summary: "My career direction: use Salesforce practice and customer-service experience to build towards forward deployed engineering.",
+    body: [
+      "Forward deployed engineering is my longer-term career direction. My immediate focus is a Salesforce Administrator or CRM support opportunity where I can contribute, learn from an experienced team and build evidence of delivery.",
+      "Customer service taught me to listen before proposing a solution. In technology, that means understanding the person using the system, the work they need to finish and what happens when a process fails. My technical portfolio is self-directed and includes simulated projects; it is not a record of paid client delivery.",
+    ],
+    sections: [
+      { heading: "What is a forward deployed engineer?", paragraphs: ["A forward deployed engineer works closely with customers to turn operational problems into working software. The role varies by employer, but commonly combines discovery, integration, implementation and support. Understanding the customer matters alongside writing and testing code."] },
+      { heading: "How Salesforce practice supports that direction", paragraphs: ["Salesforce practice gives me a way to explore data quality, access and workflow decisions in a concrete business scenario. My SunRise Solar project uses a fictional business, and the repository documents its current status. The User Lifecycle SOP explores provisioning and access checks in a training environment.", "These projects are starting points for discussing decisions. A hiring manager should be able to inspect the evidence, ask what I understand independently and distinguish my work from AI-assisted implementation."] },
+      { heading: "What I need to demonstrate next", paragraphs: ["My next evidence should include a small API integration, clear error handling, a repeatable check and a handover note. These are learning goals, not skills I am claiming to have already demonstrated. I will publish the repository and actual results when the work exists.", "For each exercise I want to answer four questions: whose problem is this, what did I build, how did I check it, and what remains incomplete? That is more useful than describing every experiment as production ready."] },
+      { heading: "What opportunities am I looking for?", paragraphs: ["I am interested in Salesforce administration and CRM support opportunities, including employment and suitable contracts. Forward deployed engineering remains the direction I am building towards. My résumé and project pages show the current evidence so employers can assess the fit."] },
+    ],
+    references: [
+      { label: "My current projects", url: "/projects" },
+      { label: "Résumé and recruitment enquiries", url: "/resume" },
+      { label: "SunRise Solar simulated project", url: "https://github.com/hossainconsulting/salesforce-sunrise-solar" },
+      { label: "User Lifecycle SOP", url: "https://github.com/hossainconsulting/salesforce-user-lifecycle-sop" },
+    ],
+  },
+  {
+    series: "crm-that-works",
+    slug: "quote-follow-up-workflow-for-tradies",
+    title: "A quote follow-up workflow for Australian tradies",
+    image: { src: "/images/quote-follow-up-workflow.webp", alt: "Suggested quote follow-up workflow: capture enquiry, assign an owner, agree next contact, review and reply, then book or close. Respect contact preferences and stop on opt-out.", width: 1536, height: 1024 },
+    date: "2026-10-02",
+    summary: "A practical CRM checklist for quote ownership, reminders, customer preferences and stopping follow-up when it is no longer wanted.",
+    body: ["Start with one quote register, one person responsible for each enquiry and a clear next action. Add reminders after those basics work. This guide describes a suggested workflow, not a measured client result or a completed Hossain Consulting installation."],
+    sections: [
+      { heading: "What should a quote register contain?", paragraphs: ["Record a quote reference, customer contact details, the requested service, the owner, the date sent, the next action and the current stage. Keep notes relevant to the job. Avoid collecting sensitive information that the workflow does not need.", "Use a short set of stages such as enquiry received, quote sent, awaiting customer, booked and closed. A closed record should explain whether the customer declined, booked elsewhere or asked for no further contact."] },
+      { heading: "When should you follow up?", paragraphs: ["Agree on the next contact with the customer when sending the quote. A scheduled CRM task can remind the owner to check whether that contact is still appropriate. There is no universal timing rule: an urgent repair and a renovation quote need different handling.", "A polite example is: ‘Hello [first name], this is [name] from [business]. Did you have any questions about quote [reference]? If you would prefer no further follow-up, please let us know.’ This is example wording, not a compliance-approved message template. Assess the purpose, channel and consent before using it."] },
+      { heading: "How do you respect consent and opt-outs?", paragraphs: ["Distinguish a requested response about a quote from promotional marketing. Do not assume that visiting a website, opening a social profile or requesting one quote gives permission for ongoing marketing. Check applicable Australian spam and privacy rules before sending automated email or SMS.", "Store the relevant contact preference, its source and date, and any withdrawal. Honour an opt-out across the tools used for outreach. Stop the sequence when the person declines, withdraws permission or books; do not keep chasing them across channels."] },
+      { heading: "What should automation do?", paragraphs: ["Begin with internal reminders and a queue for human review. If you later automate customer messages, test the stop conditions first: duplicate records, accepted quotes, closed jobs and opt-outs. Keep a person responsible for exceptions and complaints.", "An AI assistant may help draft a reply from approved job information. It should not invent prices, promise availability, approve safety-critical work or expose customer information in an unapproved tool."] },
+      { heading: "How will you know it is working?", paragraphs: ["Track unanswered enquiries, overdue tasks and quotes with no owner. Use your own baseline before reporting an improvement. Faster replies do not automatically prove more revenue, and example figures should never be presented as customer results.", "If you want help mapping this process, the services page explains the current offer and links to an online introductory call. Begin with the workflow and agree on scope before choosing software."] },
+    ],
+    references: [
+      { label: "Services and online booking", url: "/services" },
+      { label: "Every enquiry gets a reply", url: "/blog/the-automation-brief/every-enquiry-gets-a-reply" },
+      { label: "Privacy notice", url: "/privacy" },
+      { label: "ACMA: avoid sending spam", url: "https://www.acma.gov.au/avoid-sending-spam" },
+      { label: "OAIC: Australian Privacy Principles", url: "https://www.oaic.gov.au/privacy/australian-privacy-principles" },
+    ],
+  },
   {
     series: "working-in-public",
     slug: "why-i-am-writing-in-public",
