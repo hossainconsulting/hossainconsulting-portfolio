@@ -7,7 +7,10 @@ export const EMAIL = "hossainconsulting@gmail.com";
 export const GITHUB = "https://github.com/hossainconsulting";
 // Hossain Consulting business pages, shown in the agency footer only.
 export const AGENCY_SOCIAL = [
-  { label: "Facebook", href: "https://www.facebook.com/hossainconsulting" },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61554142802965",
+  },
   { label: "Instagram", href: "https://www.instagram.com/hossainconsulting/" },
   { label: "X", href: "https://x.com/HossainConsult" },
   {
@@ -17,6 +20,19 @@ export const AGENCY_SOCIAL = [
   { label: "YouTube", href: "https://www.youtube.com/@hossain-consulting" },
   { label: "TikTok", href: "https://www.tiktok.com/@hossainconsulting" },
   { label: "Pinterest", href: "https://au.pinterest.com/hossainconsulting/" },
+];
+// Hemayet's personal profiles, shown in the personal footer only.
+export const PERSONAL_SOCIAL = [
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61553978682903",
+  },
+  { label: "Instagram", href: "https://www.instagram.com/sirhemayethossain/" },
+  { label: "X", href: "https://x.com/himu_sydney" },
+  { label: "TikTok", href: "https://www.tiktok.com/@sirhemayethossain" },
+  { label: "YouTube", href: "https://www.youtube.com/@sirhemayethossain" },
+  { label: "Pinterest", href: "https://au.pinterest.com/hemayethossain/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/hemayethossain/" },
 ];
 // One shared Calendly booking type serves clients and recruiters (the
 // Calendly plan allows one active event type).

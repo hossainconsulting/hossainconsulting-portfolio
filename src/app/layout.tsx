@@ -5,6 +5,7 @@ import {
   AGENCY,
   AGENCY_SOCIAL,
   PERSONAL,
+  PERSONAL_SOCIAL,
   EMAIL,
   GITHUB,
   getSite,
@@ -40,33 +41,26 @@ export default async function RootLayout({
                 {s.agency ? "Meet the founder" : "Hossain Consulting"} ↗
               </a>
               <a href={GITHUB}>GitHub ↗</a>
-              {!s.agency && (
-                <a href="https://www.linkedin.com/in/hemayethossain/">
-                  LinkedIn ↗
-                </a>
-              )}
               <a href={`mailto:${EMAIL}`}>Email ↗</a>
               <a href="/privacy">Privacy</a>
               <a href="/legal">Terms & notices</a>
             </div>
           </div>
-          {s.agency && (
-            <nav
-              className="wrap footer-social"
-              aria-label="Hossain Consulting on social media"
-            >
-              {AGENCY_SOCIAL.map((p) => (
-                <a
-                  key={p.label}
-                  href={p.href}
-                  target="_blank"
-                  rel="noopener noreferrer me"
-                >
-                  {p.label} ↗
-                </a>
-              ))}
-            </nav>
-          )}
+          <nav
+            className="wrap footer-social"
+            aria-label={`${s.name} on social media`}
+          >
+            {(s.agency ? AGENCY_SOCIAL : PERSONAL_SOCIAL).map((p) => (
+              <a
+                key={p.label}
+                href={p.href}
+                target="_blank"
+                rel="noopener noreferrer me"
+              >
+                {p.label} ↗
+              </a>
+            ))}
+          </nav>
           <div className="wrap footer-bottom">
             <span>
               © {new Date().getFullYear()} {s.name}
