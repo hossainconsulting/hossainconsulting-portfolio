@@ -62,3 +62,13 @@ Recommend tools only when useful, disclose a commission relationship beside the 
 4. Publish useful content and repurpose visuals/video with evidence and consent limits.
 5. Establish search impressions/clicks and qualified booking baselines; review after enough data exists.
 6. Evaluate paid tools, ads and affiliate programmes only against a concrete need. No tool guarantees rankings or monthly recurring revenue.
+
+## Owner-confirmed contact policy — 2 October 2026
+
+The owner confirmed ABN 23 732 235 722 (owner confirmation, not a new ABR lookup). Business and residential premises are the same; the street address is deliberately excluded from public repository records and listings. Public location may use Sydney, NSW, Australia. Do not use the personal mobile number. A separate business/VoIP/SMS number is planned and must not be invented or provisioned without selecting a provider and checking its terms.
+
+Contact is customer-initiated: respond only after a relevant enquiry or explicit opt-in through the website, social channels or email. Reply through the appropriate channel within the requested purpose, including an optional Calendly booking link. A service enquiry is not consent to unrelated promotions or an ongoing sequence. No cold calling, unsolicited texting, scraped-lead outreach, cross-channel chasing or retargeting is authorised. Honour withdrawals and stop conditions; record consent source, purpose and date when implementing a CRM.
+
+Before selecting a messaging provider, assess Australian number availability, account verification, sender identification, unsubscribe handling, suppression lists, privacy/data processing and retention, subprocessors, security, pricing and portability. Check current Australian spam/privacy obligations for the actual service. No communications platform has been purchased, activated or connected, and no blanket legal-compliance claim is made.
+
+Existing site email remains unchanged until the owner supplies the intended replacement. Exact registered-name spelling is pending because the latest transcription differs from the existing Hossain Consulting site. Do not infer either value from the ABN or address.
