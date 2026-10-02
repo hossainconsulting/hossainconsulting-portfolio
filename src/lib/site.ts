@@ -33,6 +33,10 @@ export const PERSONAL_SOCIAL = [
   { label: "YouTube", href: "https://www.youtube.com/@sirhemayethossain" },
   { label: "Pinterest", href: "https://au.pinterest.com/hemayethossain/" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/hemayethossain/" },
+  {
+    label: "Trailblazer",
+    href: "https://www.salesforce.com/trailblazer/hemayethossain",
+  },
 ];
 // One shared Calendly booking type serves clients and recruiters (the
 // Calendly plan allows one active event type).
