@@ -31,6 +31,7 @@ export const PERSONAL_SOCIAL = [
   { label: "X", href: "https://x.com/himu_sydney" },
   { label: "TikTok", href: "https://www.tiktok.com/@sirhemayethossain" },
   { label: "YouTube", href: "https://www.youtube.com/@sirhemayethossain" },
+  { label: "Pinterest", href: "https://au.pinterest.com/hemayethossain/" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/hemayethossain/" },
 ];
 // One shared Calendly booking type serves clients and recruiters (the
