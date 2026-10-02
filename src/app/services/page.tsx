@@ -79,8 +79,12 @@ const journey = [
     "What will be built, the price (+GST), the timeline and what’s not included. Nothing starts until you approve it.",
   ],
   [
+    "Cooling-off",
+    "New clients get 10 business days to change their mind after signing. No payment is taken and no work starts in that time.",
+  ],
+  [
     "Deposit & kick-off",
-    "50% deposit on a tax invoice. We agree a weekly check-in time.",
+    "50% deposit on a tax invoice, due in 7 days. Bank transfer and PayID are free; card is also available. We agree a weekly check-in time.",
   ],
   [
     "Build & test",
@@ -202,10 +206,12 @@ export default async function Services() {
             no paid client engagements to date.
           </p>
           <p>
-            So my first 3 clients get founding-client prices, about 35% below
-            standard. In return, I ask for honest feedback and, only if you
-            agree, permission to describe the work. It can be anonymised if you
-            prefer.
+            So my first 3 clients can choose a <strong>free pilot</strong>:
+            the CRM tidy-up & handover map at no cost (normally $950 + GST).
+            Bigger packages are at founding-client prices, about 35% below
+            standard, until I have 3 published reviews. In return, I ask for
+            honest feedback and, only if you agree, permission to describe the
+            work. It can be anonymised if you prefer.
           </p>
           <p>
             If your problem isn’t a good fit for what I do, I’ll tell you on the

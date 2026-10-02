@@ -29,7 +29,7 @@ const hiringSteps = [
   ],
   [
     "Offer & start",
-    "We agree a start date that allows proper notice for my current role.",
+    "We agree a start date that allows proper notice for my current role. I’m an Australian citizen; for overseas roles, we discuss visa sponsorship and relocation up front.",
   ],
 ];
 
@@ -46,6 +46,8 @@ export default function Resume() {
         Salesforce Administrator candidate · Sydney, NSW
         <br />
         Bachelor of Information Technology · Four Salesforce certifications
+        <br />
+        Australian citizen · Open to roles in Australia and overseas
       </p>
       <div className="actions">
         <a className="button" href={BOOK_RECRUITER_CALL}>
