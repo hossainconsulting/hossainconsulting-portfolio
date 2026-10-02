@@ -31,3 +31,24 @@ Source lineage: adapted by Codex on 2 October 2026 from the owner's private `bra
 ## Completion report
 
 Include the commit/PR URL, changes, actual verification, indexing evidence or lack of it, and remaining account access. Search Console, Bing Webmaster Tools, social scheduling and CRM integrations are separate account actions; a skill is not an unattended agent or tracker.
+
+## Confirmed operating scope — 2 October 2026
+
+- Exact written identity: Hossain Consulting; public email: hemayet@hossainconsulting.com; ABN: 23 732 235 722 (owner-confirmed).
+- Keep established domains hemayethossain.com and hossainconsulting.com. Do not replace them with voice-transcription variants.
+- Online-only service, Calendly booking and remote meetings. No public home street address, customer visits or on-site delivery claims. Do not publish a personal mobile number.
+- Do not activate cold calls, SMS, AI voice, purchased lead lists, retargeting or unsolicited outreach. The owner will select providers and obtain appropriate legal advice before considering those channels.
+- Customer enquiries may receive relevant responses and booking links. Enquiry handling is distinct from unrelated marketing consent.
+- The 3 October 2026, 2 p.m. Australia/Sydney reminder was created successfully for authorisation. It cannot detect desktop login and does not itself grant account access.
+
+## Execute the complete workflow
+
+Read [the execution board](../../docs/brand-growth/execution-board.md) at the start and update actual statuses after checks. Use the dated research and listing plan alongside it. Preserve historical evidence.
+
+For every task, distinguish prepared, pushed, preview-verified, production-live, provider-submitted and provider-verified. Do not use “done” for all these states interchangeably. Check the actual tool/account before promising authorisation prompts or desktop access.
+
+Check social ownership and exact URLs before editing. Personal channels point to the personal site; business channels point to the agency. GitHub and Trailblazer identify the founder; do not invent a second agency certification profile. Preserve current verified links unless a source or owner supplies a correction.
+
+Review mobile layout, keyboard use, contrast, descriptive image text, page performance, broken links, redirects and canonical URLs. Consider Search Console and Bing reports first for measurement; propose optional privacy-aware analytics only after assessing purpose and consent requirements. Installing pixels or analytics is not implied by preparing a measurement plan.
+
+Use paid SEO software only when it answers a specific unresolved question. Do not buy tools, advertisements, directory subscriptions or affiliate plans solely because a roadmap mentions them. Search visibility, AI citations, employment, client acquisition and recurring revenue are goals, not guaranteed outputs.
