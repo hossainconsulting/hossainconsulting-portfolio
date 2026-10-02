@@ -32,6 +32,8 @@ Source lineage: adapted by Codex on 2 October 2026 from the owner's private `bra
 
 Include the commit/PR URL, changes, actual verification, indexing evidence or lack of it, and remaining account access. Search Console, Bing Webmaster Tools, social scheduling and CRM integrations are separate account actions; a skill is not an unattended agent or tracker.
 
+For website changes, follow [device/browser support](../../docs/brand-growth/device-browser-support.md). Test phone, tablet, laptop and desktop widths; record engine and physical-device coverage honestly. Check email/social entrypoints, touch targets, text wrapping and booking handoff. Chromium emulation or CSS injection is not proof of Safari/iOS or a deployed preview. Target supported modern browsers; do not promise retired Internet Explorer support.
+
 ## Confirmed operating scope — 2 October 2026
 
 - Exact written identity: Hossain Consulting; public email: hemayet@hossainconsulting.com; ABN: 23 732 235 722 (owner-confirmed).
