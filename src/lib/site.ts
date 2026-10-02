@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const PERSONAL = "https://hemayethossain.com";
 export const AGENCY = "https://hossainconsulting.com";
 export const PORTFOLIO = "https://portfolio.hossainconsulting.com";
-export const EMAIL = "hossainconsulting@gmail.com";
+export const EMAIL = "hemayet@hossainconsulting.com";
 export const GITHUB = "https://github.com/hossainconsulting";
 // Hossain Consulting business pages, shown in the agency footer only.
 export const AGENCY_SOCIAL = [

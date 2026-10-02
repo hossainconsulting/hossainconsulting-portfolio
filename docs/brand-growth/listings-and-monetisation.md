@@ -10,7 +10,7 @@ This cloud session has no verified control of the owner's home desktop or its si
 
 For each current domain (`hemayethossain.com` and `hossainconsulting.com`), create/check a Google Search Console Domain property, obtain its unique DNS TXT challenge, add that exact record to the corresponding Cloudflare zone, verify in Google and retain the record. Preserve existing DNS, mail and hosting records. Submit each domain's existing `/sitemap.xml`. Then use Bing Webmaster Tools' supported Google import or its own verification method. Check the actual result and sitemap processing state. A sitemap submission is not a guaranteed indexing or ranking result.
 
-The user requested a reminder; its day/time is pending. Do not claim a scheduled reminder until automation creation succeeds.
+A one-time reminder was successfully created for 3 October 2026 at 2 p.m. Australia/Sydney. It is timed; this session cannot detect desktop login.
 
 ## One business identity
 
@@ -20,7 +20,7 @@ Proposed description:
 
 > Hossain Consulting is a Sydney-based practice developing CRM and workflow automation services for trade and home-service businesses. Online discovery calls focus on enquiry tracking, quote follow-up and practical workflow mapping. The founder, Hemayet Hossain, shares self-directed and simulated technical projects with their current status clearly documented.
 
-Use current site copy to confirm delivery status before submitting. Public business phone, preferred email and exact registered name are awaiting owner confirmation. Do not publish the home street address. If a directory requires public premises or in-person service, resolve eligibility before creating a listing. Do not enter fabricated addresses, hours, clients, reviews, credentials or results. Existing public ABN should be checked against the registration before use.
+Use current site copy to confirm delivery status before submitting. The owner confirmed the registered name as Hossain Consulting and the public contact email as hemayet@hossainconsulting.com. A dedicated business phone remains unselected; do not use the personal mobile. Do not publish the home street address. If a directory requires public premises or in-person service, resolve eligibility before creating a listing. Do not enter fabricated addresses, hours, clients, reviews, credentials or results. Existing public ABN should be checked against the registration before use.
 
 ## Dated directory shortlist
 
@@ -71,4 +71,4 @@ Contact is customer-initiated: respond only after a relevant enquiry or explicit
 
 Before selecting a messaging provider, assess Australian number availability, account verification, sender identification, unsubscribe handling, suppression lists, privacy/data processing and retention, subprocessors, security, pricing and portability. Check current Australian spam/privacy obligations for the actual service. No communications platform has been purchased, activated or connected, and no blanket legal-compliance claim is made.
 
-Existing site email remains unchanged until the owner supplies the intended replacement. Exact registered-name spelling is pending because the latest transcription differs from the existing Hossain Consulting site. Do not infer either value from the ABN or address.
+The owner subsequently confirmed Hossain Consulting and hemayet@hossainconsulting.com. The review-branch website email constants and agency structured data are updated to that address. This does not provision a mailbox or verify inbound/outbound delivery.
