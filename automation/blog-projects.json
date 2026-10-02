@@ -1,0 +1,21 @@
+{
+  "owner": "hossainconsulting",
+  "tagPrefix": "blog/",
+  "repos": [
+    "agentforce-meridian-care",
+    "api-engineering-lab",
+    "career-automation-system",
+    "coastline-retail-group",
+    "gtmlander",
+    "home-services-ai",
+    "ironbark-industrial-supply",
+    "kurrajong-energy",
+    "meridian-field-services",
+    "python-data-analysis",
+    "python-lab",
+    "salesforce-integration-lab",
+    "salesforce-sunrise-solar",
+    "salesforce-user-lifecycle-sop",
+    "tradelink-group"
+  ]
+}

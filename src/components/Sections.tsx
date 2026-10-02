@@ -1,4 +1,11 @@
-import { EMAIL, GITHUB, PORTFOLIO, projects } from "@/lib/site";
+import {
+  BOOK_CLIENT_CALL,
+  BOOK_RECRUITER_CALL,
+  EMAIL,
+  GITHUB,
+  PORTFOLIO,
+  projects,
+} from "@/lib/site";
 export function ProjectList() {
   return (
     <div className="projects">
@@ -43,16 +50,25 @@ export function Contact({ agency = false }: { agency?: boolean }) {
           </h2>
           <p>
             {agency
-              ? "Tell me about your business and the workflow you want to improve. We can discuss the scope, fit and next steps by email."
+              ? "Tell me about your business and the workflow you want to improve. We can discuss the scope, fit and next steps on a free call or by email."
               : "Hiring for Salesforce administration or CRM support? I’d welcome a conversation about your team."}
           </p>
         </div>
-        <a
-          className="button light"
-          href={`mailto:${EMAIL}?subject=${encodeURIComponent(agency ? "CRM and automation enquiry" : "Salesforce role enquiry")}`}
-        >
-          Email Hemayet <span>↗</span>
-        </a>
+        <div className="contact-actions">
+          <a
+            className="button light"
+            href={agency ? BOOK_CLIENT_CALL : BOOK_RECRUITER_CALL}
+          >
+            {agency ? "Book a free 20-min call" : "Book a 20-min chat"}{" "}
+            <span>↗</span>
+          </a>
+          <a
+            className="text-link"
+            href={`mailto:${EMAIL}?subject=${encodeURIComponent(agency ? "CRM and automation enquiry" : "Salesforce role enquiry")}`}
+          >
+            Or email Hemayet ↗
+          </a>
+        </div>
       </div>
     </section>
   );

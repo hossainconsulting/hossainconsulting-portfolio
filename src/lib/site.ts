@@ -5,6 +5,12 @@ export const AGENCY = "https://hossainconsulting.com";
 export const PORTFOLIO = "https://portfolio.hossainconsulting.com";
 export const EMAIL = "hossainconsulting@gmail.com";
 export const GITHUB = "https://github.com/hossainconsulting";
+// One shared Calendly booking type serves clients and recruiters (the
+// Calendly plan allows one active event type).
+export const BOOK_CALL =
+  "https://calendly.com/hemayet_hossain/20-minute-intro-call";
+export const BOOK_CLIENT_CALL = BOOK_CALL;
+export const BOOK_RECRUITER_CALL = BOOK_CALL;
 export async function getSite() {
   const host = ((await headers()).get("host") || "")
     .split(":")[0]
