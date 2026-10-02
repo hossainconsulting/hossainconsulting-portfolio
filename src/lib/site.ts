@@ -5,6 +5,19 @@ export const AGENCY = "https://hossainconsulting.com";
 export const PORTFOLIO = "https://portfolio.hossainconsulting.com";
 export const EMAIL = "hossainconsulting@gmail.com";
 export const GITHUB = "https://github.com/hossainconsulting";
+// Hossain Consulting business pages, shown in the agency footer only.
+export const AGENCY_SOCIAL = [
+  { label: "Facebook", href: "https://www.facebook.com/hossainconsulting" },
+  { label: "Instagram", href: "https://www.instagram.com/hossainconsulting/" },
+  { label: "X", href: "https://x.com/HossainConsult" },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/hossain-consulting",
+  },
+  { label: "YouTube", href: "https://www.youtube.com/@hossain-consulting" },
+  { label: "TikTok", href: "https://www.tiktok.com/@hossainconsulting" },
+  { label: "Pinterest", href: "https://au.pinterest.com/hossainconsulting/" },
+];
 // One shared Calendly booking type serves clients and recruiters (the
 // Calendly plan allows one active event type).
 export const BOOK_CALL =
