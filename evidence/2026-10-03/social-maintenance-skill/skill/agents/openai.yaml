@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hossain Social Maintenance"
+  short_description: "Maintain website links and personal/business social profiles"
+  default_prompt: "Use $hossain-social-maintenance to update the requested social account links or profiles and verify the result with GitHub evidence."
