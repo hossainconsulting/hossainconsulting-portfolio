@@ -11,10 +11,17 @@ import {
   getSite,
 } from "@/lib/site";
 import "./globals.css";
-export const metadata: Metadata = {
-  title: "Hemayet Hossain",
-  description: "Salesforce administration, CRM and automation in Sydney.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const s = await getSite();
+  return {
+    title: "Hemayet Hossain",
+    description: "Salesforce administration, CRM and automation in Sydney.",
+    // Pinterest domain claim for hemayethossain.com (personal profile only).
+    ...(!s.agency && {
+      other: { "p:domain_verify": "4ec600390deb9090b57b0c76decbf6c1" },
+    }),
+  };
+}
 export default async function RootLayout({
   children,
 }: {
