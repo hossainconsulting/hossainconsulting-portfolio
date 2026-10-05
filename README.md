@@ -20,6 +20,12 @@ Both sites have a `/blog` with five series each, defined in `src/lib/blog.ts`. T
 - Publish a post: append to `posts` with an existing series slug, a `YYYY-MM-DD` date, a summary and body paragraphs. It appears at `/blog/<series>/<slug>`, in listings and in that site's sitemap.
 - Automatic drafts: push a `blog/<name>` tag in a watched project repo when work is complete. A daily routine drafts a personal and an agency post from that repo's evidence and opens a draft PR for review. See `automation/blog-from-projects.md`.
 
+Articles can include optional question-led `sections` and `references`. Article pages show the author and emit matching BlogPosting JSON-LD and article Open Graph metadata. Sitemaps use actual publication dates for article URLs.
+
+## Search and content workflow
+
+The reusable repository skill is [brand-search-growth](skills/brand-search-growth/SKILL.md). It adapts the owner's saved prompts into a research, writing, visual and consent-based enquiry workflow. It is not automatically installed into AI accounts. The dated keyword/competitor roadmap and prepared social/video scripts are in [docs/brand-growth](docs/brand-growth/search-roadmap.md). Search Console and Bing account verification remain separate tasks.
+
 ## Development and verification
 
 Use Node.js 24 and the pinned lockfile:

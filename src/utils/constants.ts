@@ -12,6 +12,6 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const CONTACT = {
-  email: 'hossainconsulting@gmail.com',
+  email: 'hemayet@hossainconsulting.com',
   github: 'https://github.com/hossainconsulting',
 };

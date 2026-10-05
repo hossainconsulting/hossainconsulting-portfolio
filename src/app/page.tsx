@@ -29,7 +29,7 @@ export default async function Home() {
         url: AGENCY,
         founder: { "@type": "Person", name: "Hemayet Hossain", url: PERSONAL },
         areaServed: "Sydney NSW",
-        email: "hossainconsulting@gmail.com",
+        email: "hemayet@hossainconsulting.com",
       }
     : {
         "@context": "https://schema.org",

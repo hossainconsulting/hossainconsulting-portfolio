@@ -1,0 +1,370 @@
+[
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 820,
+      "scrollWidth": 820,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 820,
+      "scrollWidth": 820,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 1366,
+      "scrollWidth": 1366,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 1366,
+      "scrollWidth": 1366,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hemayethossain.com",
+    "before": {
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 20,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 820,
+      "scrollWidth": 820,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 820,
+      "scrollWidth": 820,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 1366,
+      "scrollWidth": 1366,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 1366,
+      "scrollWidth": 1366,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  },
+  {
+    "domain": "hossainconsulting.com",
+    "before": {
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 18,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    },
+    "after_injected_css": {
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "overflow": false,
+      "h1": 1,
+      "main": true,
+      "shortTargets": 0,
+      "booking": true,
+      "imagesWithoutAlt": 0
+    }
+  }
+]

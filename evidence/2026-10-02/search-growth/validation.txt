@@ -1,0 +1,7 @@
+
+> hossainconsulting-portfolio@0.1.0 lint
+> eslint
+
+PASS: hemayethossain.com article, metadata, sitemap and cross-site rejection
+PASS: hossainconsulting.com article, metadata, sitemap and cross-site rejection
+PASS: unknown host cannot inject sitemap origin
