@@ -28,7 +28,7 @@ export const PERSONAL_SOCIAL = [
     href: "https://www.facebook.com/profile.php?id=61553978682903",
   },
   { label: "Instagram", href: "https://www.instagram.com/sirhemayethossain/" },
-  { label: "X", href: "https://x.com/himu_sydney" },
+  { label: "X", href: "https://x.com/hemayetAI" },
   { label: "TikTok", href: "https://www.tiktok.com/@sirhemayethossain" },
   { label: "YouTube", href: "https://www.youtube.com/@sirhemayethossain" },
   { label: "Pinterest", href: "https://au.pinterest.com/hemayethossain/" },
