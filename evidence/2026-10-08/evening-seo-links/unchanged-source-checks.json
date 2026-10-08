@@ -1,0 +1,40 @@
+{
+  "base_commit": "c0a37f3fedcc9fbebe01b928c469b7691cd52fd0",
+  "checks": [
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "fd7dd0a05b63ae657e3ad173a8d3399337b7e1139fb6e723e255813345516034",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/lib/site.ts",
+      "sha256": "3e58ac8ba17a60ab8c1c8e54288a0a3db1d71dd11ea7c93e48cf055ddc393b93",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "sha256": "7afc5d5af4d3e2939151cf823af1049bd492745fcdbe10957da86a76a00f337f",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/app/robots.ts",
+      "sha256": "b820533281e4c4aea42fae5aadb12a4c401f9e7ab7d599fff7ab6a1ce8412f2e",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/app/blog/[series]/[post]/page.tsx",
+      "sha256": "641679552b74b81c4d34d0deffcbbbe0f5cdbb4c8709ccde193d696ee2237dfb",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "2b0d16db9e7d1a842a3722eeba5318eb84ca3733d326117e2bd93ff83bc3b760",
+      "identical_to_base": true
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "2ce95b39c24dd391bbc0c6fd7b4178eedbb4a673d2f86aa49b908454ebbc5d3d",
+      "identical_to_base": true
+    }
+  ]
+}

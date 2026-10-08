@@ -1,0 +1,365 @@
+{
+  "checked_at_utc": "2026-10-08T07:06:55.678215+00:00",
+  "scope": "Published sites before proposed article-link changes; HTTP checks do not prove Google indexing.",
+  "sitemaps": [
+    {
+      "url": "https://hemayethossain.com/sitemap.xml",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/sitemap.xml",
+      "count": 15
+    },
+    {
+      "url": "https://hossainconsulting.com/sitemap.xml",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/sitemap.xml",
+      "count": 12
+    }
+  ],
+  "robots": [
+    {
+      "url": "https://hemayethossain.com/robots.txt",
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\n\nSitemap: https://hemayethossain.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://hossainconsulting.com/robots.txt",
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\n\nSitemap: https://hossainconsulting.com/sitemap.xml\n"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://hemayethossain.com",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/",
+      "canonical": [
+        "https://hemayethossain.com/"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": false,
+      "normalization": "Root URLs with empty path and / are equivalent; curl normalizes the request path."
+    },
+    {
+      "url": "https://hemayethossain.com/projects",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/projects",
+      "canonical": [
+        "https://hemayethossain.com/projects"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/about",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/about",
+      "canonical": [
+        "https://hemayethossain.com/about"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/skills",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/skills",
+      "canonical": [
+        "https://hemayethossain.com/skills"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/resume",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/resume",
+      "canonical": [
+        "https://hemayethossain.com/resume"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/privacy",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/privacy",
+      "canonical": [
+        "https://hemayethossain.com/privacy"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/legal",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/legal",
+      "canonical": [
+        "https://hemayethossain.com/legal"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog",
+      "canonical": [
+        "https://hemayethossain.com/blog"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/forward-notes",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/forward-notes",
+      "canonical": [
+        "https://hemayethossain.com/blog/forward-notes"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/hemayet-builds",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/hemayet-builds",
+      "canonical": [
+        "https://hemayethossain.com/blog/hemayet-builds"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/the-build-log",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/the-build-log",
+      "canonical": [
+        "https://hemayethossain.com/blog/the-build-log"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/notes-from-the-org",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/notes-from-the-org",
+      "canonical": [
+        "https://hemayethossain.com/blog/notes-from-the-org"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/working-in-public",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/working-in-public",
+      "canonical": [
+        "https://hemayethossain.com/blog/working-in-public"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/forward-notes/salesforce-to-forward-deployed-engineer",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/forward-notes/salesforce-to-forward-deployed-engineer",
+      "canonical": [
+        "https://hemayethossain.com/blog/forward-notes/salesforce-to-forward-deployed-engineer"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hemayethossain.com/blog/working-in-public/why-i-am-writing-in-public",
+      "status": 200,
+      "final_url": "https://hemayethossain.com/blog/working-in-public/why-i-am-writing-in-public",
+      "canonical": [
+        "https://hemayethossain.com/blog/working-in-public/why-i-am-writing-in-public"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/",
+      "canonical": [
+        "https://hossainconsulting.com/"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": false,
+      "normalization": "Root URLs with empty path and / are equivalent; curl normalizes the request path."
+    },
+    {
+      "url": "https://hossainconsulting.com/services",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/services",
+      "canonical": [
+        "https://hossainconsulting.com/services"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/privacy",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/privacy",
+      "canonical": [
+        "https://hossainconsulting.com/privacy"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/legal",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/legal",
+      "canonical": [
+        "https://hossainconsulting.com/legal"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog",
+      "canonical": [
+        "https://hossainconsulting.com/blog"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/the-automation-brief",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/the-automation-brief",
+      "canonical": [
+        "https://hossainconsulting.com/blog/the-automation-brief"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/field-notes",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/field-notes",
+      "canonical": [
+        "https://hossainconsulting.com/blog/field-notes"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/practical-ai-for-business",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/practical-ai-for-business",
+      "canonical": [
+        "https://hossainconsulting.com/blog/practical-ai-for-business"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/crm-that-works",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/crm-that-works",
+      "canonical": [
+        "https://hossainconsulting.com/blog/crm-that-works"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/hossain-insights",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/hossain-insights",
+      "canonical": [
+        "https://hossainconsulting.com/blog/hossain-insights"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/crm-that-works/quote-follow-up-workflow-for-tradies",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/crm-that-works/quote-follow-up-workflow-for-tradies",
+      "canonical": [
+        "https://hossainconsulting.com/blog/crm-that-works/quote-follow-up-workflow-for-tradies"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    },
+    {
+      "url": "https://hossainconsulting.com/blog/the-automation-brief/every-enquiry-gets-a-reply",
+      "status": 200,
+      "final_url": "https://hossainconsulting.com/blog/the-automation-brief/every-enquiry-gets-a-reply",
+      "canonical": [
+        "https://hossainconsulting.com/blog/the-automation-brief/every-enquiry-gets-a-reply"
+      ],
+      "robots": [],
+      "h1_count": 1,
+      "passed": true,
+      "exact_url_match": true
+    }
+  ],
+  "portfolio": {
+    "url": "https://portfolio.hossainconsulting.com",
+    "status": 200,
+    "final_url": "https://portfolio.hossainconsulting.com/"
+  },
+  "passed": 27,
+  "total": 27
+}

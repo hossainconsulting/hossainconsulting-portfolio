@@ -166,6 +166,12 @@ export const posts: Post[] = [
       "A few rules I’m holding myself to. I’ll only describe work that exists in a repository you can check. If something is planned, I’ll call it planned. If something didn’t work, I’ll say that too, because the fix is usually the most useful part.",
       "If you’re a recruiter or hiring manager, the posts are meant to save you time: you can see how I approach a problem before we ever talk. If you have questions, the résumé page explains how hiring me works, step by step.",
     ],
+    references: [
+      { label: "Current projects and implementation status", url: "/projects" },
+      { label: "Résumé and recruitment enquiries", url: "/resume" },
+      { label: "My Salesforce and forward deployed engineering direction", url: "/blog/forward-notes/salesforce-to-forward-deployed-engineer" },
+      { label: "Shared portfolio evidence hub", url: "https://portfolio.hossainconsulting.com" },
+    ],
   },
   {
     series: "the-automation-brief",
@@ -183,6 +189,11 @@ export const posts: Post[] = [
       "Only now is automation worth adding. A reminder when an enquiry has had no reply by the end of the day. A nudge when a quote has gone quiet for a few days. Small, boring automations like these are often the most useful ones.",
       "What to watch for: don’t automate a messy process, or you’ll just make the mess faster. And keep a person in charge of anything a customer sees.",
       "If you’d like a second pair of eyes on how enquiries move through your business, a free 20-minute call is a good place to start. You’ll get a one-page summary afterwards, whether or not we work together.",
+    ],
+    references: [
+      { label: "Quote follow-up workflow for Australian tradies", url: "/blog/crm-that-works/quote-follow-up-workflow-for-tradies" },
+      { label: "CRM and automation services and online booking", url: "/services" },
+      { label: "About the founder and current practice", url: "https://hemayethossain.com/about" },
     ],
   },
 ];
