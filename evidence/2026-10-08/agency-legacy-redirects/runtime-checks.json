@@ -1,0 +1,127 @@
+[
+  {
+    "host": "hossainconsulting.com",
+    "path": "/home",
+    "status": 308,
+    "location": "/"
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/terms-of-service",
+    "status": 308,
+    "location": "/legal"
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/contact",
+    "status": 308,
+    "location": "/#contact"
+  },
+  {
+    "host": "www.hossainconsulting.com",
+    "path": "/home",
+    "status": 308,
+    "location": "/"
+  },
+  {
+    "host": "www.hossainconsulting.com",
+    "path": "/terms-of-service",
+    "status": 308,
+    "location": "/legal"
+  },
+  {
+    "host": "www.hossainconsulting.com",
+    "path": "/contact",
+    "status": 308,
+    "location": "/#contact"
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/home",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/terms-of-service",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/contact",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "www.hemayethossain.com",
+    "path": "/home",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "www.hemayethossain.com",
+    "path": "/terms-of-service",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "www.hemayethossain.com",
+    "path": "/contact",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "portfolio.hossainconsulting.com",
+    "path": "/home",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "portfolio.hossainconsulting.com",
+    "path": "/terms-of-service",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "portfolio.hossainconsulting.com",
+    "path": "/contact",
+    "status": 404,
+    "location": null
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/services",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/blog",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/legal",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/privacy",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/sitemap.xml",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/robots.txt",
+    "status": 200
+  }
+]
