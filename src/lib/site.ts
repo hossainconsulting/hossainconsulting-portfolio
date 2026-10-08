@@ -20,6 +20,10 @@ export const AGENCY_SOCIAL = [
   { label: "YouTube", href: "https://www.youtube.com/@hossain-consulting" },
   { label: "TikTok", href: "https://www.tiktok.com/@hossainconsulting" },
   { label: "Pinterest", href: "https://au.pinterest.com/hossainconsulting/" },
+  {
+    label: "Founder’s Trailblazer",
+    href: "https://www.salesforce.com/trailblazer/hemayethossain",
+  },
 ];
 // Hemayet's personal profiles, shown in the personal footer only.
 export const PERSONAL_SOCIAL = [
