@@ -1,0 +1,26 @@
+Production build already passed with exit 0 after replacing a cross-root node_modules symlink with a local copy. Initial Turbopack attempt failed on the symlink; no source/config workaround was used.
+
+$ npm run lint
+
+> hossainconsulting-portfolio@0.1.0 lint
+> eslint
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Exit status: 0
+
+$ node scripts/check-blog-search.mjs
+PASS: hemayethossain.com article, metadata, sitemap and cross-site rejection
+PASS: hossainconsulting.com article, metadata, sitemap and cross-site rejection
+PASS: unknown host cannot inject sitemap origin
+Exit status: 0
+
+$ node scripts/.evening-link-validation.cjs.mjs
+PASS: hemayethossain.com exact resource links: /projects, /resume, /blog/forward-notes/salesforce-to-forward-deployed-engineer, https://portfolio.hossainconsulting.com
+PASS: hemayethossain.com article, metadata, sitemap and cross-site rejection
+PASS: hossainconsulting.com exact resource links: /blog/crm-that-works/quote-follow-up-workflow-for-tradies, /services, https://hemayethossain.com/about
+PASS: hossainconsulting.com article, metadata, sitemap and cross-site rejection
+PASS: unknown host cannot inject sitemap origin
+Exit status: 0
+
+$ git diff --check
+Exit status: 0
