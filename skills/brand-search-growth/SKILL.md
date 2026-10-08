@@ -54,3 +54,13 @@ Check social ownership and exact URLs before editing. Personal channels point to
 Review mobile layout, keyboard use, contrast, descriptive image text, page performance, broken links, redirects and canonical URLs. Consider Search Console and Bing reports first for measurement; propose optional privacy-aware analytics only after assessing purpose and consent requirements. Installing pixels or analytics is not implied by preparing a measurement plan.
 
 Use paid SEO software only when it answers a specific unresolved question. Do not buy tools, advertisements, directory subscriptions or affiliate plans solely because a roadmap mentions them. Search visibility, AI citations, employment, client acquisition and recurring revenue are goals, not guaranteed outputs.
+
+## Owner organic-growth rules — 8 October 2026
+
+- Never remove the footers or existing footer links from either domain. Read current src/lib/site.ts and live footer URLs instead of asking the owner to supply available social links. Identify Trailblazer as the founder profile.
+- Apply organic growth across both websites, relevant free listings, evidence-based blogs, internal/cross-site links, social posts, images and faceless demonstrations. Keep paid ads, boosts, purchased links, advertising pixels and retargeting inactive. Future advertising requires separate explicit approval; traffic thresholds do not grant permission.
+- Prepare a single approval pack from each verified project milestone: distinct personal/agency drafts, source commit/tag, adapted captions, carousel/image and alt text, video storyboard/transcript/thumbnail, final assets when rendered, destinations and proposed schedule. Label scripts and briefs as unrendered. Do not publish or schedule live content until the owner approves the exact batch and destinations.
+- Preserve simulations and unfinished status. Prefer useful demonstrations over generic bulk posts. Confirm account ownership/permissions separately from working public links. Use native schedulers only after approved access and content.
+- Reuse the existing Monday morning Australia/Sydney blog-and-social draft automation; inspect its actual state before changing it. It prepares drafts and does not authenticate social platforms or publish unattended.
+- Measure available search clicks, relevant referrals, enquiries and platform engagement. Verify live URLs and keep drafts, rendered, scheduled, published and indexed states separate.
+- Read references/organic-workflow.md for the reusable batch procedure and research.md for related repository comparisons. Do not install external schedulers or paid services solely because they are listed.
