@@ -46,6 +46,6 @@ Next organic-growth task: Friday research of one eligible free listing and profi
 
 No merge, deployment, public website edit, social publication/scheduling, listing submission, message, tracking installation or spend was performed. Paid ads, boosts, purchased backlinks, pixels, retargeting and unsolicited outreach remain inactive. Existing simulations and planned status remain unchanged.
 
-No authenticated Search Console inspection was performed in this evening session; the older supplied notifications cannot establish today's indexing status. HTTP 200 is not proof of Google indexing. The attempted local production-server HTTP check did not produce a result in this environment; server-rendered checks use the documented framework stubs. Visual desktop/mobile and preview checks remain pending. No social authentication is inferred from public footer links.
+No authenticated Search Console inspection was performed in this evening session; the older supplied notifications cannot establish today's indexing status. HTTP 200 is not proof of Google indexing. The attempted local production-server HTTP check did not produce a result in this environment and was interrupted (exit 130); no local HTTP pass is claimed. Server-rendered checks use the documented framework stubs. Visual desktop/mobile and preview checks remain pending. No social authentication is inferred from public footer links.
 
 Supporting evidence contains public site URLs, sanitized check output and source hashes only; no credentials, customer data or account exports.
