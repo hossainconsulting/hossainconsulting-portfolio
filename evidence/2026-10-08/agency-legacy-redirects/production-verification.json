@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-08",
+  "merge_commit": "c0a37f3fedcc9fbebe01b928c469b7691cd52fd0",
+  "pr": 9,
+  "vercel_status": "success: Deployment has completed",
+  "direct_redirects": "All three paths returned 308 and correct relative Location on agency apex and www.",
+  "checks": [
+    {
+      "url": "https://hossainconsulting.com/home",
+      "result": "200 https://hossainconsulting.com/",
+      "exit": 0
+    },
+    {
+      "url": "https://hossainconsulting.com/terms-of-service",
+      "result": "200 https://hossainconsulting.com/legal",
+      "exit": 0
+    },
+    {
+      "url": "https://hossainconsulting.com/contact",
+      "result": "200 https://hossainconsulting.com/#contact",
+      "exit": 0
+    },
+    {
+      "url": "https://hossainconsulting.com/services",
+      "result": "200 https://hossainconsulting.com/services",
+      "exit": 0
+    },
+    {
+      "url": "https://hossainconsulting.com/blog",
+      "result": "200 https://hossainconsulting.com/blog",
+      "exit": 0
+    },
+    {
+      "url": "https://hossainconsulting.com/sitemap.xml",
+      "result": "200 https://hossainconsulting.com/sitemap.xml",
+      "exit": 0
+    },
+    {
+      "url": "https://hossainconsulting.com/robots.txt",
+      "result": "200 https://hossainconsulting.com/robots.txt",
+      "exit": 0
+    },
+    {
+      "url": "https://hemayethossain.com/",
+      "result": "200 https://hemayethossain.com/",
+      "exit": 0
+    },
+    {
+      "url": "https://hemayethossain.com/home",
+      "result": "404 https://hemayethossain.com/home",
+      "exit": 0
+    },
+    {
+      "url": "https://hemayethossain.com/blog",
+      "result": "200 https://hemayethossain.com/blog",
+      "exit": 0
+    },
+    {
+      "url": "https://portfolio.hossainconsulting.com/",
+      "result": "200 https://portfolio.hossainconsulting.com/",
+      "exit": 0
+    }
+  ]
+}
