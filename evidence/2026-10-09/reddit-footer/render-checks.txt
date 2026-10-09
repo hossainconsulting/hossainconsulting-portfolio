@@ -1,0 +1,5 @@
+PASS hemayethossain.com desktop: correct isolated Reddit link; 9 social links; safe new-tab attributes; no horizontal overflow; social targets >=44px.
+PASS hemayethossain.com mobile: correct isolated Reddit link; 9 social links; safe new-tab attributes; no horizontal overflow; social targets >=44px.
+PASS hossainconsulting.com desktop: correct isolated Reddit link; 9 social links; safe new-tab attributes; no horizontal overflow; social targets >=44px.
+PASS hossainconsulting.com mobile: correct isolated Reddit link; 9 social links; safe new-tab attributes; no horizontal overflow; social targets >=44px.
+PASS source comparison: all pre-existing content preserved byte-for-byte.
