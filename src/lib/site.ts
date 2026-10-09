@@ -13,6 +13,7 @@ export const AGENCY_SOCIAL = [
   },
   { label: "Instagram", href: "https://www.instagram.com/hossainconsulting/" },
   { label: "X", href: "https://x.com/HossainConsult" },
+  { label: "Reddit", href: "https://www.reddit.com/user/hossainconsulting/" },
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/company/hossain-consulting",
@@ -33,6 +34,7 @@ export const PERSONAL_SOCIAL = [
   },
   { label: "Instagram", href: "https://www.instagram.com/sirhemayethossain/" },
   { label: "X", href: "https://x.com/hemayetAI" },
+  { label: "Reddit", href: "https://www.reddit.com/user/hemayetAI/" },
   { label: "TikTok", href: "https://www.tiktok.com/@sirhemayethossain" },
   { label: "YouTube", href: "https://www.youtube.com/@sirhemayethossain" },
   { label: "Pinterest", href: "https://au.pinterest.com/hemayethossain/" },
