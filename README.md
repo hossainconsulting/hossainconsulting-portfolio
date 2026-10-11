@@ -16,6 +16,13 @@ Projects clearly distinguish simulations, planning and unfinished implementation
 
 Both sites have a `/blog` with five series each, defined in `src/lib/blog.ts`. The host decides which series appear; a series URL returns 404 on the other site.
 
+The existing articles credit Hemayet Hossain. `src/lib/blog-author.ts` keeps his
+shared name, byline, personal About URL and existing LinkedIn/Trailblazer links,
+with a biography for each site's audience. Article pages use that identity in
+the byline, About the author section and metadata. This is not a CMS account.
+Before adding a different contributor, adapt the article's explicit attribution;
+do not infer authorship from site ownership. Preserve AI-assistance disclosures.
+
 - Add a series: append to `series` with a unique `slug` and `site` (`personal` or `agency`).
 - Publish a post: append to `posts` with an existing series slug, a `YYYY-MM-DD` date, a summary and body paragraphs. It appears at `/blog/<series>/<slug>`, in listings and in that site's sitemap.
 - Automatic drafts: push a `blog/<name>` tag in a watched project repo when work is complete. A daily routine drafts a personal and an agency post from that repo's evidence and opens a draft PR for review. See `automation/blog-from-projects.md`.

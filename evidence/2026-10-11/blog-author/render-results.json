@@ -1,0 +1,38 @@
+[
+  {
+    "host": "hemayethossain.com",
+    "route": "/blog/working-in-public/why-i-am-writing-in-public",
+    "status": 200,
+    "author": {
+      "@type": "Person",
+      "name": "Hemayet Hossain",
+      "url": "https://hemayethossain.com/about",
+      "description": "Hemayet Hossain is based in Sydney and is the founder of Hossain Consulting. He writes about Salesforce, AI and workflow automation, sharing lessons from self-directed projects and software prototypes. His articles distinguish tested results from ideas still being explored.",
+      "sameAs": [
+        "https://www.linkedin.com/in/hemayethossain/",
+        "https://www.salesforce.com/trailblazer/hemayethossain"
+      ]
+    },
+    "wrongSiteStatus": 404,
+    "wrongSiteNotFound": true,
+    "aboutStatus": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "route": "/blog/the-automation-brief/every-enquiry-gets-a-reply",
+    "status": 200,
+    "author": {
+      "@type": "Person",
+      "name": "Hemayet Hossain",
+      "url": "https://hemayethossain.com/about",
+      "description": "Hemayet Hossain is the Sydney-based founder of Hossain Consulting, a developing CRM and automation practice for trade and home-service businesses. He writes about Salesforce, AI and workflow automation using self-directed demos and practice scenarios, distinguishing tested results from ideas still being explored.",
+      "sameAs": [
+        "https://www.linkedin.com/in/hemayethossain/",
+        "https://www.salesforce.com/trailblazer/hemayethossain"
+      ]
+    },
+    "wrongSiteStatus": 404,
+    "wrongSiteNotFound": true,
+    "aboutStatus": 200
+  }
+]
