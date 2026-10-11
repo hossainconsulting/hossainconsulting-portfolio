@@ -70,3 +70,28 @@ authorises a Vercel preview deployment or confirms this branch cannot deploy.
 That permission is separate from production publication. Visual QA and public
 profile reachability were not verified here; source links reuse the approved
 existing identities. The separate portfolio evidence hub is untouched.
+
+## Authorised push and draft PR follow-up
+
+On 11 October the owner replied "push branch" to the explicit request covering
+branch push, draft PR and any Vercel preview triggered. This supersedes the
+earlier local-only pause above. Production merge/deployment remain unauthorised.
+
+- Pushed reviewed implementation commit
+  `e3a3b29fd4aa60f08567661838006e56924f83ec` to codex/blog-author-hemayet.
+  `git ls-remote` and PR headRefOid both confirmed this exact SHA.
+- Created and attached draft [PR #17](https://github.com/hossainconsulting/hossainconsulting-portfolio/pull/17).
+  It is open and draft; base main. No merge or production deployment performed.
+- Exact implementation-head checks: Vercel deployment and Vercel Preview Comments
+  both passed. Deployment inspector:
+  https://vercel.com/hossain-consulting/hossainconsulting-portfolio/AJFtzVma8fzxKDimmzRTtMBGvtyJ
+- Actual preview URL from Vercel's PR comment:
+  https://hossainconsulting-portfolio-git-codex-a6f045-hossain-consulting.vercel.app
+- An unauthenticated GET of the personal article redirected to vercel.com/login
+  through Vercel SSO. Final HTTP 200 was the login page, not article verification.
+  The preview requires Vercel authentication; no protection bypass or auth repair
+  was attempted. Personal/agency preview content could not be independently
+  verified through this access path. Local two-host checks remain the content
+  evidence; visual/mobile QA remains incomplete.
+- This follow-up records publication of the branch/evidence only; source code and
+  tests are unchanged from the reviewed implementation.
