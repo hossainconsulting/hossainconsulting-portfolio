@@ -15,7 +15,7 @@ export async function generateMetadata() {
       ? "Hossain Consulting | CRM & Automation for Trade Businesses"
       : "Hemayet Hossain | Salesforce Administrator Candidate, Sydney",
     s.agency
-      ? "Founder-led CRM and automation demos for trade and home-service businesses. Explore the work and discuss your workflow with Hemayet Hossain."
+      ? "Founder-led CRM and automation demos for trade and home-service businesses. Hossain Consulting serves clients in New South Wales, Australia only. Explore the work and discuss your workflow with Hemayet Hossain."
       : "Four Salesforce certifications, an IT degree and an operations perspective. Explore Hemayet Hossain’s self-directed Salesforce portfolio and career background.",
   );
 }
@@ -28,7 +28,7 @@ export default async function Home() {
         name: "Hossain Consulting",
         url: AGENCY,
         founder: { "@type": "Person", name: "Hemayet Hossain", url: PERSONAL },
-        areaServed: "Sydney NSW",
+        areaServed: "New South Wales, Australia",
         email: "hemayet@hossainconsulting.com",
       }
     : {
@@ -72,8 +72,13 @@ export default async function Home() {
               <p className="hero-copy">
                 Practical CRM and automation ideas for trade and home-service
                 businesses. Built and tested by Hemayet Hossain, one workflow at
-                a time.
+                a time. Hossain Consulting serves clients in New South Wales,
+                Australia only.
               </p>
+              <div className="honest-note">
+                <p>We’re preparing to launch paid services. Payment processing and our service terms are still being finalised, with legal review outstanding. You’re welcome to enquire; we’ll confirm when paid service bookings and payments are available.</p>
+                <p>Free introductory calls remain available. An enquiry or introductory call is not a paid service booking.</p>
+              </div>
               <div className="actions">
                 <a className="button" href={BOOK_CLIENT_CALL}>
                   Book a free 20-min call ↗
@@ -83,7 +88,7 @@ export default async function Home() {
                 </a>
               </div>
               <p className="fine">
-                A new practice taking on founding clients. Current portfolio
+                A new practice welcoming enquiries from prospective founding clients. Current portfolio
                 work is simulated, with no client engagements to date.
               </p>
             </div>
@@ -288,6 +293,12 @@ export default async function Home() {
                   I’m developing technical skills through Salesforce simulations
                   and documented learning, while building a new consulting
                   practice.
+                </p>
+                <p>
+                  Hossain Consulting is preparing to launch paid services.
+                  Payment processing and service terms are still being finalised,
+                  with legal review outstanding. You can enquire with the agency;
+                  paid service bookings and payments will be confirmed when available.
                 </p>
                 <div className="actions">
                   <a className="text-link" href="/about">

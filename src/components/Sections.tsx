@@ -50,7 +50,7 @@ export function Contact({ agency = false }: { agency?: boolean }) {
           </h2>
           <p>
             {agency
-              ? "Tell me about your business and the workflow you want to improve. We can discuss the scope, fit and next steps on a free call or by email."
+              ? "Tell me about your business and the workflow you want to improve. We can discuss scope, fit and next steps on a free introductory call or by email. Payment processing and service terms are still being finalised, with legal review outstanding. This is an introductory enquiry, not a paid service booking."
               : "Hiring for Salesforce administration or CRM support? I’d welcome a conversation about your team."}
           </p>
         </div>
