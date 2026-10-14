@@ -53,6 +53,11 @@ export default async function Privacy() {
       </p>
       <h2>Website delivery and external services</h2>
       <p>
+        These websites use Vercel for hosting and Cloudflare for domain
+        services. Email sent to hemayet@hossainconsulting.com is routed through
+        Google’s mail service. Introductory bookings use Calendly.
+      </p>
+      <p>
         Visiting a website involves technical connection information, such as
         an IP address and browser request information. Infrastructure providers
         may process this information to deliver and protect the websites.
@@ -64,6 +69,15 @@ export default async function Privacy() {
         services. Their privacy and cookie practices apply when you use them.
         You can manage cookies through your browser settings. This notice does
         not describe every external service’s processing.
+      </p>
+      <h2>Overseas processing</h2>
+      <p>
+        Calendly’s privacy notice states that information it collects may be
+        processed and stored in the United States or other countries where
+        Calendly or its service providers operate. Review its
+        <a href="https://calendly.com/legal/privacy-notice"> privacy notice</a>
+        {" "}before using the booking service. Our NSW service area does not mean
+        that information stays in NSW or Australia.
       </p>
       <h2>Prospective CRM work</h2>
       <p>

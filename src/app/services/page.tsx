@@ -8,7 +8,7 @@ export async function generateMetadata() {
   return pageMetadata(
     "/services",
     "Enquiry & Follow-up Setup | Hossain Consulting",
-    "Preparing a fixed-scope Enquiry & Follow-up Setup service for trade and home-service businesses. Enquire about scope, CRM suitability and launch availability.",
+    "Preparing a fixed-scope Enquiry & Follow-up Setup service for trade and home-service businesses in New South Wales, Australia only. Enquire about scope, CRM suitability and launch availability.",
   );
 }
 
@@ -33,7 +33,7 @@ export default async function Services() {
           <p>We’re preparing to launch paid services. Payment processing and our service terms are still being finalised. You’re welcome to enquire; we’ll confirm when paid service bookings and payments are available.</p>
           <p>Legal review of the cooling-off period, charge date and cancellation/refund terms is still outstanding.</p>
         </div>
-        <p className="intro">One fixed-scope package for trade and home-service businesses. Start with a free introductory call to discuss your enquiry process, needs and budget. We check the CRM plan, access and current setup before accepting work, then agree the scope in writing.</p>
+        <p className="intro">One fixed-scope package for trade and home-service businesses. Hossain Consulting serves clients in New South Wales, Australia only. Start with a free introductory call to discuss your enquiry process, needs and budget. We check the CRM plan, access and current setup before accepting work, then agree the scope in writing.</p>
         <div className="actions">
           <a className="button" href={BOOK_CLIENT_CALL}>Book a free 20-min introductory call <span>↗</span></a>
           <a className="text-link" href={`mailto:${EMAIL}?subject=${encodeURIComponent("CRM and automation enquiry")}`}>Enquire by email ↗</a>
