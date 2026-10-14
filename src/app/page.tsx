@@ -74,6 +74,10 @@ export default async function Home() {
                 businesses. Built and tested by Hemayet Hossain, one workflow at
                 a time.
               </p>
+              <div className="honest-note">
+                <p>We’re preparing to launch paid services. Payment processing and our service terms are still being finalised, with legal review outstanding. You’re welcome to enquire; we’ll confirm when paid service bookings and payments are available.</p>
+                <p>Free introductory calls remain available. An enquiry or introductory call is not a paid service booking.</p>
+              </div>
               <div className="actions">
                 <a className="button" href={BOOK_CLIENT_CALL}>
                   Book a free 20-min call ↗
@@ -288,6 +292,12 @@ export default async function Home() {
                   I’m developing technical skills through Salesforce simulations
                   and documented learning, while building a new consulting
                   practice.
+                </p>
+                <p>
+                  Hossain Consulting is preparing to launch paid services.
+                  Payment processing and service terms are still being finalised,
+                  with legal review outstanding. You can enquire with the agency;
+                  paid service bookings and payments will be confirmed when available.
                 </p>
                 <div className="actions">
                   <a className="text-link" href="/about">

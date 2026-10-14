@@ -7,97 +7,18 @@ export async function generateMetadata() {
   if (!agency) return {};
   return pageMetadata(
     "/services",
-    "Services | Hossain Consulting",
-    "Fixed-scope CRM and automation packages for trade and home-service businesses in Sydney. Start with a free 20-minute workflow chat.",
+    "Enquiry & Follow-up Setup | Hossain Consulting",
+    "Preparing a fixed-scope Enquiry & Follow-up Setup service for trade and home-service businesses. Enquire about scope, CRM suitability and launch availability.",
   );
 }
 
-const packages = [
-  {
-    n: "01",
-    name: "Enquiry & follow-up setup",
-    for: "Enquiries arrive by phone, text, email and web form, and some never get a reply.",
-    get: [
-      "One place to capture every new enquiry",
-      "A simple pipeline from enquiry to quote to booked job",
-      "Follow-up reminders so nothing goes quiet",
-      "A short how-to guide for you and your team",
-    ],
-    scope:
-      "Up to 5 users, 1 pipeline, 3 reminder automations, 1 training session, 14 days of support",
-    founding: 1500,
-    standard: 2400,
-  },
-  {
-    n: "02",
-    name: "CRM tidy-up & handover map",
-    for: "You already have a CRM or spreadsheet, but nobody trusts what’s in it.",
-    get: [
-      "A map of how work moves through your business today",
-      "Cleaned-up fields, ownership and statuses",
-      "Clear handover points between office and field",
-      "A written record of what changed and why",
-    ],
-    scope:
-      "Process map, clean-up of up to 2,000 records, written change record",
-    founding: 950,
-    standard: 1500,
-  },
-  {
-    n: "03",
-    name: "AI-assisted admin trial",
-    for: "You’re curious whether AI can save time on notes, summaries or replies, but want to try it safely.",
-    get: [
-      "One small AI-assisted workflow, tested on your real process",
-      "A person stays in control of every customer-facing step",
-      "Written limits: what it does well and where it fails",
-      "A clear keep, change or drop recommendation",
-    ],
-    scope:
-      "1 workflow over 2–3 weeks, a person approves every customer-facing step",
-    founding: 1200,
-    standard: 1800,
-  },
-];
-
-const aud = (n: number) =>
-  "$" + n.toLocaleString("en-AU", { maximumFractionDigits: 0 });
-const incGst = (n: number) => aud(Math.round(n * 1.1));
-
 const journey = [
-  ["Book a free call", "Pick a 20-minute time online, or email if you prefer."],
-  [
-    "Free call",
-    "We talk about the workflow that costs you the most time. No preparation needed.",
-  ],
-  [
-    "Free workflow snapshot",
-    "Within 3 business days: a one-page summary with up to 3 quick wins. Yours to keep, whether or not you go ahead.",
-  ],
-  [
-    "Written scope & fixed quote",
-    "What will be built, the price (+GST), the timeline and what’s not included. Nothing starts until you approve it.",
-  ],
-  [
-    "Cooling-off",
-    "New clients get 10 business days to change their mind after signing. No payment is taken and no work starts in that time.",
-  ],
-  [
-    "Deposit & kick-off",
-    "50% deposit on a tax invoice, due in 7 days. Bank transfer and PayID are free; card is also available. We agree a weekly check-in time.",
-  ],
-  [
-    "Build & test",
-    "Built in small steps. A short update every week, and you test each part before we move on.",
-  ],
-  [
-    "Handover",
-    "A live walkthrough, a how-to guide and a record of every change. The final 50% is invoiced at handover.",
-  ],
-  [
-    "14 days of support",
-    "Questions and fixes for anything in scope. After that, an optional care plan.",
-  ],
+  ["Enquire", "Email or book a free 20-minute introductory call to discuss your workflow, business needs, size and budget."],
+  ["Check suitability", "We assess the CRM plan, access and current setup before accepting work."],
+  ["Agree the scope", "Receive and approve a written scope, total price, software costs and timeline. Service availability and payment arrangements will be confirmed when ready."],
+  ["Build & test", "Build and test the agreed enquiry pipeline and reminders with you."],
+  ["Training & handover", "One training session and a written handover documenting the delivered work."],
+  ["Support & access removal", "14 days of support after handover for delivered work only. We remove our access afterwards unless further work is agreed."],
 ];
 
 export default async function Services() {
@@ -107,120 +28,88 @@ export default async function Services() {
     <main id="main">
       <section className="wrap section">
         <p className="eyebrow">SERVICES</p>
-        <h1 className="page-title">
-          Small, fixed-scope projects.
-          <br />
-          <em>No surprises.</em>
-        </h1>
-        <p className="intro">
-          Each package starts with a free 20-minute call and a free one-page
-          workflow snapshot. If it’s a good fit, you get a written scope and a
-          fixed price before any work begins. Usually built in Salesforce, or a
-          simpler tool if that suits your business better.
-        </p>
+        <h1 className="page-title">Enquiry &amp; Follow-up Setup.</h1>
+        <div className="honest-note">
+          <p>We’re preparing to launch paid services. Payment processing and our service terms are still being finalised. You’re welcome to enquire; we’ll confirm when paid service bookings and payments are available.</p>
+          <p>Legal review of the cooling-off period, charge date and cancellation/refund terms is still outstanding.</p>
+        </div>
+        <p className="intro">One fixed-scope package for trade and home-service businesses. Start with a free introductory call to discuss your enquiry process, needs and budget. We check the CRM plan, access and current setup before accepting work, then agree the scope in writing.</p>
         <div className="actions">
-          <a className="button" href={BOOK_CLIENT_CALL}>
-            Book a free 20-min call <span>↗</span>
-          </a>
-          <a
-            className="text-link"
-            href={`mailto:${EMAIL}?subject=${encodeURIComponent("CRM and automation enquiry")}`}
-          >
-            Prefer email? ↗
-          </a>
+          <a className="button" href={BOOK_CLIENT_CALL}>Book a free 20-min introductory call <span>↗</span></a>
+          <a className="text-link" href={`mailto:${EMAIL}?subject=${encodeURIComponent("CRM and automation enquiry")}`}>Enquire by email ↗</a>
         </div>
+        <p className="fine">An introductory call or enquiry is not a paid service booking.</p>
       </section>
       <section className="wrap section">
+        <article className="card">
+          <h2>One package, agreed in writing.</h2>
+          <p className="price">A$2,640 <small>including GST</small></p>
+          <p className="price-note">Standard one-off price. Software subscriptions are separate.</p>
+          <ul>
+            <li>Up to five users</li>
+            <li>One enquiry pipeline</li>
+            <li>Three reminder automations</li>
+            <li>One training session and a written handover</li>
+            <li>14 days of support after handover, covering delivered work only</li>
+          </ul>
+          <p>Your legal remedies are unaffected. Additional work is quoted in writing and approved before it begins.</p>
+        </article>
+      </section>
+      <section className="wrap section">
+        <p className="eyebrow">LAUNCH PROJECTS</p>
+        <h2>The first three clients.</h2>
         <div className="cards">
-          {packages.map((p) => (
-            <article className="card" key={p.n}>
-              <span className="card-index">{p.n}</span>
-              <h2>{p.name}</h2>
-              <p>
-                <strong>Good for:</strong> {p.for}
-              </p>
-              <p>
-                <strong>What you get:</strong>
-              </p>
-              <ul>
-                {p.get.map((g) => (
-                  <li key={g}>{g}</li>
-                ))}
-              </ul>
-              <p className="package-meta">
-                <strong>Includes:</strong> {p.scope}
-              </p>
-              <p className="price">
-                {aud(p.founding)} <small>+ GST</small>
-              </p>
-              <p className="price-note">
-                Founding-client price ({incGst(p.founding)} inc. GST). Standard
-                price {aud(p.standard)} + GST.
-              </p>
-            </article>
-          ))}
+          <article className="card">
+            <span className="card-index">01</span>
+            <h3>One agreed small fix</h3>
+            <p className="price">Free</p>
+            <p>Up to two hours. A smaller scope than the full package, with no mandatory follow-on purchase.</p>
+          </article>
+          <article className="card">
+            <span className="card-index">02</span>
+            <h3>Full package</h3>
+            <p className="price">A$825 <small>including GST</small></p>
+            <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
+          </article>
+          <article className="card">
+            <span className="card-index">03</span>
+            <h3>Full package</h3>
+            <p className="price">A$1,650 <small>including GST</small></p>
+            <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
+          </article>
         </div>
-      </section>
-      <section className="wrap section">
         <div className="honest-note">
-          <p>
-            <strong>Optional care plan:</strong> up to 2 hours a month of fixes
-            and small changes. $200 + GST a month for founding clients ($220
-            inc. GST); standard $300 + GST. Cancel any month.
-          </p>
-          <p>
-            Prices are for the scope listed. Anything extra is quoted in writing
-            first. Software licences (for example Salesforce or ServiceM8) are
-            paid by you directly to the provider, and I’ll tell you if a cheaper
-            tool suits you better.
-          </p>
+          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. The launch offer ends after three completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
+          <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of free or discounted work. We will not request Google reviews from the first three clients.</p>
         </div>
       </section>
-      <section className="section shaded" id="how-it-works">
+      <section className="section shaded">
         <div className="wrap">
-          <p className="eyebrow">FROM BOOKING TO HANDOVER</p>
-          <h2>Every step, before you commit.</h2>
-          <ol className="steps">
-            {journey.map(([t, d], i) => (
-              <li key={t}>
-                <strong>
-                  {String(i + 1).padStart(2, "0")} · {t}
-                </strong>
-                {d}
-              </li>
-            ))}
-          </ol>
-          <p className="fine">
-            Hossain Consulting is registered for GST (ABN 23 732 235 722). All
-            invoices are tax invoices.
-          </p>
+          <p className="eyebrow">YOUR CRM, ACCOUNT AND DATA</p>
+          <h2>Choose tools that suit your business.</h2>
+          <p>You own your CRM subscription, account and data, and pay the provider directly. Software costs are separate from the setup fee. Salesforce and GoHighLevel are our main platforms; HubSpot, ClickFunnels and ScalePlus may be considered where suitable.</p>
+          <p>We recommend based on your needs, business size and budget, show the provider cost, and disclose any affiliate commission in writing.</p>
+          <p>Client work takes place in the client’s account, never in Hemayet’s personal or test accounts. Invite us with only the access required for the agreed work. We never ask for passwords, card details or tokens.</p>
+          <p>We may decline work if the CRM assessment identifies an unresolved technical or access issue. If we cannot proceed, we&apos;ll explain why in writing and refund any payment for work not delivered, subject to your legal rights.</p>
+          <p>You receive a written handover. We remove our access after the support period unless further work is agreed.</p>
         </div>
       </section>
+      <section className="wrap section" id="how-it-works">
+        <p className="eyebrow">FROM ENQUIRY TO HANDOVER</p>
+        <h2>The proposed service process.</h2>
+        <ol className="steps">
+          {journey.map(([title, description], i) => (
+            <li key={title}>
+              <strong>{String(i + 1).padStart(2, "0")} · {title}</strong>
+              {description}
+            </li>
+          ))}
+        </ol>
+      </section>
       <section className="wrap section">
-        <p className="eyebrow">FOUNDING CLIENTS</p>
-        <h2>Be one of the first.</h2>
-        <div className="honest-note">
-          <p>
-            Hossain Consulting is a new practice. My portfolio work so far is
-            self-directed and tested on fictional business scenarios. There are
-            no paid client engagements to date.
-          </p>
-          <p>
-            So my first 3 clients can choose a <strong>free pilot</strong>:
-            the CRM tidy-up & handover map at no cost (normally $950 + GST).
-            Bigger packages are at founding-client prices, about 35% below
-            standard, until I have 3 published reviews. In return, I ask for
-            honest feedback and, only if you agree, permission to describe the
-            work. It can be anonymised if you prefer.
-          </p>
-          <p>
-            If your problem isn’t a good fit for what I do, I’ll tell you on the
-            call.
-          </p>
-        </div>
-        <a className="button" href={BOOK_CLIENT_CALL}>
-          Book a free 20-min call <span>↗</span>
-        </a>
+        <h2>A new practice, with documented learning.</h2>
+        <p>Hossain Consulting is led by Hemayet Hossain, who holds four Salesforce certifications. Current portfolio projects are self-directed simulations; no paid CRM client work is claimed.</p>
+        <p>We welcome inbound enquiries and do not make cold calls. No business outcome is guaranteed.</p>
       </section>
       <Contact agency />
     </main>
