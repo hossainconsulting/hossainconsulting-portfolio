@@ -61,19 +61,19 @@ export default async function Services() {
         <div className="cards">
           <article className="card">
             <span className="card-index">01</span>
-            <h3>Full package</h3>
+            <h3>First launch client</h3>
             <p className="price">A$825 <small>including GST</small></p>
             <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
           </article>
           <article className="card">
             <span className="card-index">02</span>
-            <h3>Full package</h3>
+            <h3>Second launch client</h3>
             <p className="price">A$1,650 <small>including GST</small></p>
             <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
           </article>
         </div>
         <div className="honest-note">
-          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. Launch pricing ends after three completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
+          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. Launch pricing ends after two completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
           <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of discounted work. We will not request Google reviews from the first three clients.</p>
         </div>
       </section>

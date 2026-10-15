@@ -21,3 +21,10 @@ Environment/target: branch `claude/inbound-funnels-email-sequences-7en5ft` off `
 - The launch pricing structure is Hemayet's decision: two launch price points (A$825, A$1,650) remain while the text still says launch pricing ends after three completed projects. Hemayet should confirm whether a third launch slot or price is wanted.
 - The free-offer wording elsewhere (home page, privacy, legal) refers only to the free introductory call and was not changed. Terms, privacy and payment wording still await legal review.
 - Related: `hossainconsulting/portfolio` PR #28.
+
+## Addendum: launch price labels and end point (2026-10-15)
+Hemayet asked that the first launch price be half the second. It already is: A$825 is half of A$1,650 (A$750 and A$1,500 excluding GST; the standard A$2,640 is A$2,400 excluding GST). Two launch prices remain, so the page was edited to match:
+- Card headings "Full package" changed to "First launch client" (A$825) and "Second launch client" (A$1,650).
+- "Launch pricing ends after three completed projects" changed to "after two completed projects"; the standard A$2,640 applies thereafter.
+Validated: `npx eslint src/app/services/page.tsx` exit 0; `npm run build` exit 0; `next start` with `Host: hossainconsulting.com`: `/services` shows the two new headings, the A$825 and A$1,650 prices and "after two completed projects", with no "three completed projects" in the launch note.
+Not changed: the review-policy sentence still says "We will not request Google reviews from the first three clients"; Hemayet should decide whether that policy applies to the two launch clients only or still to the first three. Not deployed; text checked server-side only.
