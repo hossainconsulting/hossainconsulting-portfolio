@@ -57,30 +57,24 @@ export default async function Services() {
       </section>
       <section className="wrap section">
         <p className="eyebrow">LAUNCH PROJECTS</p>
-        <h2>The first three clients.</h2>
+        <h2>Launch pricing.</h2>
         <div className="cards">
           <article className="card">
             <span className="card-index">01</span>
-            <h3>One agreed small fix</h3>
-            <p className="price">Free</p>
-            <p>Up to two hours. A smaller scope than the full package, with no mandatory follow-on purchase.</p>
-          </article>
-          <article className="card">
-            <span className="card-index">02</span>
-            <h3>Full package</h3>
+            <h3>First launch client</h3>
             <p className="price">A$825 <small>including GST</small></p>
             <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
           </article>
           <article className="card">
-            <span className="card-index">03</span>
-            <h3>Full package</h3>
+            <span className="card-index">02</span>
+            <h3>Second launch client</h3>
             <p className="price">A$1,650 <small>including GST</small></p>
             <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
           </article>
         </div>
         <div className="honest-note">
-          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. The launch offer ends after three completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
-          <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of free or discounted work. We will not request Google reviews from the first three clients.</p>
+          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. Launch pricing ends after two completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
+          <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of discounted work. We will not request Google reviews from launch clients.</p>
         </div>
       </section>
       <section className="section shaded">
