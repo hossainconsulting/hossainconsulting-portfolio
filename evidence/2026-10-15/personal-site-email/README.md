@@ -22,3 +22,6 @@ Environment/target: branch `claude/inbound-funnels-email-sequences-7en5ft` (PR #
 - No test mail was sent: it is not verified that `hemayet@hemayethossain.com` exists or forwards to the inbox. An earlier note in this repo says inbound mail for the personal domain was not configured by this implementation; Hemayet should send a test message before the change is live.
 - The privacy page's statement that mail is "routed through Google's mail service" is unverified for the personal domain.
 - `src/utils/constants.ts` still holds an unused `CONTACT.email` with the agency address; it is not referenced by any page and was not changed.
+
+## Update (2026-10-15, after merge of PR #20)
+Hemayet reported that both addresses, `hemayet@hossainconsulting.com` and `hemayet@hemayethossain.com`, were tested and work. This is a user-reported result; Claude did not send or receive any test mail and has not verified it independently. It closes the "test mail" limitation above for both addresses. Not covered by this report: sending from the aliases (Gmail "Send mail as"), SPF/DKIM/DMARC for outgoing mail, and the privacy page's statement that mail is routed through Google's mail service for the personal domain.
