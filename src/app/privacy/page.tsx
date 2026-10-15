@@ -14,7 +14,7 @@ export default async function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 14 October 2026.</p>
+      <p>Updated 15 October 2026.</p>
       <p>
         This notice covers website enquiries and introductory call bookings for
         Hemayet Hossain and Hossain Consulting at hemayethossain.com and
@@ -70,6 +70,44 @@ export default async function Privacy() {
         You can manage cookies through your browser settings. This notice does
         not describe every external service’s processing.
       </p>
+      {site.agency && (
+        <>
+          <h2>Free checklist and email updates</h2>
+          <p>
+            We are preparing a free enquiry checklist for trade and home-service
+            businesses. It will be offered on a page within our evidence
+            portfolio at portfolio.hossainconsulting.com, which will publish its
+            own privacy policy and terms before sign-ups open. Until then we do
+            not collect sign-ups for email updates.
+          </p>
+          <p>
+            When it is available, you will be asked to tick a box agreeing to
+            receive the checklist and related emails. We will keep your name,
+            email address, business name and trade, the time you agreed, the
+            wording you agreed to and the page you used. We use this only to
+            send the checklist and the emails you agreed to, and to reply to
+            you. We do not sell your details. Every email will have an
+            unsubscribe link, and we will act on it promptly.
+          </p>
+          <p>
+            We keep subscriber details while you are subscribed and for up to 24
+            months after your last interaction, plus a record that you
+            unsubscribed so we do not email you again. We will use an email
+            platform to send these emails. It will store your details and may
+            process them in the United States or other countries. We will name
+            the provider here before sign-ups open.
+          </p>
+          <h2>Payments for our own fees</h2>
+          <p>
+            Payment processing is not available yet. When it is, you will pay
+            Hossain Consulting&apos;s own fees through a payment provider, which
+            we will name here first. We do not ask for or store your card
+            details. You subscribe to your own tools, such as a CRM, advertising
+            account, domain or hosting, in your own name and with your own card,
+            and you pay those providers directly.
+          </p>
+        </>
+      )}
       <h2>Overseas processing</h2>
       <p>
         Calendly’s privacy notice states that information it collects may be
