@@ -1,6 +1,7 @@
 import {
   AGENCY,
   BOOK_CLIENT_CALL,
+  EMAIL_AGENCY,
   PERSONAL,
   GITHUB,
   getSite,
@@ -29,7 +30,7 @@ export default async function Home() {
         url: AGENCY,
         founder: { "@type": "Person", name: "Hemayet Hossain", url: PERSONAL },
         areaServed: "New South Wales, Australia",
-        email: "hemayet@hossainconsulting.com",
+        email: EMAIL_AGENCY,
       }
     : {
         "@context": "https://schema.org",

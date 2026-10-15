@@ -1,7 +1,8 @@
 import {
   BOOK_CLIENT_CALL,
   BOOK_RECRUITER_CALL,
-  EMAIL,
+  EMAIL_AGENCY,
+  EMAIL_PERSONAL,
   GITHUB,
   PORTFOLIO,
   projects,
@@ -64,7 +65,7 @@ export function Contact({ agency = false }: { agency?: boolean }) {
           </a>
           <a
             className="text-link"
-            href={`mailto:${EMAIL}?subject=${encodeURIComponent(agency ? "CRM and automation enquiry" : "Salesforce role enquiry")}`}
+            href={`mailto:${agency ? EMAIL_AGENCY : EMAIL_PERSONAL}?subject=${encodeURIComponent(agency ? "CRM and automation enquiry" : "Salesforce role enquiry")}`}
           >
             Or email Hemayet ↗
           </a>

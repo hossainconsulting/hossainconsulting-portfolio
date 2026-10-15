@@ -6,7 +6,6 @@ import {
   AGENCY_SOCIAL,
   PERSONAL,
   PERSONAL_SOCIAL,
-  EMAIL,
   GITHUB,
   getSite,
 } from "@/lib/site";
@@ -48,7 +47,7 @@ export default async function RootLayout({
                 {s.agency ? "Meet the founder" : "Hossain Consulting"} ↗
               </a>
               <a href={GITHUB}>GitHub ↗</a>
-              <a href={`mailto:${EMAIL}`}>Email ↗</a>
+              <a href={`mailto:${s.email}`}>Email ↗</a>
               <a href="/privacy">Privacy</a>
               <a href="/legal">Terms & notices</a>
             </div>

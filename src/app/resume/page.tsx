@@ -1,4 +1,4 @@
-import { pageMetadata, EMAIL, BOOK_RECRUITER_CALL } from "@/lib/site";
+import { pageMetadata, EMAIL_PERSONAL, BOOK_RECRUITER_CALL } from "@/lib/site";
 export async function generateMetadata() {
   return pageMetadata(
     "/resume",
@@ -55,7 +55,7 @@ export default function Resume() {
         </a>
         <a
           className="text-link"
-          href={`mailto:${EMAIL}?subject=Resume%20request`}
+          href={`mailto:${EMAIL_PERSONAL}?subject=Resume%20request`}
         >
           Request my application résumé ↗
         </a>

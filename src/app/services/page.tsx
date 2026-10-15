@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { BOOK_CLIENT_CALL, EMAIL, getSite, pageMetadata } from "@/lib/site";
+import { BOOK_CLIENT_CALL, EMAIL_AGENCY, getSite, pageMetadata } from "@/lib/site";
 import { Contact } from "@/components/Sections";
 
 export async function generateMetadata() {
@@ -36,7 +36,7 @@ export default async function Services() {
         <p className="intro">One fixed-scope package for trade and home-service businesses. Hossain Consulting serves clients in New South Wales, Australia only. Start with a free introductory call to discuss your enquiry process, needs and budget. We check the CRM plan, access and current setup before accepting work, then agree the scope in writing.</p>
         <div className="actions">
           <a className="button" href={BOOK_CLIENT_CALL}>Book a free 20-min introductory call <span>↗</span></a>
-          <a className="text-link" href={`mailto:${EMAIL}?subject=${encodeURIComponent("CRM and automation enquiry")}`}>Enquire by email ↗</a>
+          <a className="text-link" href={`mailto:${EMAIL_AGENCY}?subject=${encodeURIComponent("CRM and automation enquiry")}`}>Enquire by email ↗</a>
         </div>
         <p className="fine">An introductory call or enquiry is not a paid service booking.</p>
       </section>

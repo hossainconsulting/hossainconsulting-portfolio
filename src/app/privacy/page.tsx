@@ -1,4 +1,4 @@
-import { pageMetadata, EMAIL, getSite } from "@/lib/site";
+import { pageMetadata, getSite } from "@/lib/site";
 
 export async function generateMetadata() {
   return pageMetadata(
@@ -54,8 +54,8 @@ export default async function Privacy() {
       <h2>Website delivery and external services</h2>
       <p>
         These websites use Vercel for hosting and Cloudflare for domain
-        services. Email sent to hemayet@hossainconsulting.com is routed through
-        Google’s mail service. Introductory bookings use Calendly.
+        services. Email sent to hemayet@hossainconsulting.com or
+        hemayet@hemayethossain.com is routed through Google’s mail service. Introductory bookings use Calendly.
       </p>
       <p>
         Visiting a website involves technical connection information, such as
@@ -135,7 +135,7 @@ export default async function Privacy() {
       <p>
         To ask about information you have sent, request access or correction,
         or ask for deletion, email
-        <a href={`mailto:${EMAIL}`}> {EMAIL}</a>. Identify the correspondence or
+        <a href={`mailto:${site.email}`}> {site.email}</a>. Identify the correspondence or
         booking concerned and the action you are requesting. Please do not
         include unnecessary sensitive information.
       </p>
