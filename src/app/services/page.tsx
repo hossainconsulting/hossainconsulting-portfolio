@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { BOOK_CLIENT_CALL, EMAIL, getSite, pageMetadata } from "@/lib/site";
+import { BOOK_CLIENT_CALL, EMAIL_AGENCY, getSite, pageMetadata } from "@/lib/site";
 import { Contact } from "@/components/Sections";
 
 export async function generateMetadata() {
@@ -36,7 +36,7 @@ export default async function Services() {
         <p className="intro">One fixed-scope package for trade and home-service businesses. Hossain Consulting serves clients in New South Wales, Australia only. Start with a free introductory call to discuss your enquiry process, needs and budget. We check the CRM plan, access and current setup before accepting work, then agree the scope in writing.</p>
         <div className="actions">
           <a className="button" href={BOOK_CLIENT_CALL}>Book a free 20-min introductory call <span>↗</span></a>
-          <a className="text-link" href={`mailto:${EMAIL}?subject=${encodeURIComponent("CRM and automation enquiry")}`}>Enquire by email ↗</a>
+          <a className="text-link" href={`mailto:${EMAIL_AGENCY}?subject=${encodeURIComponent("CRM and automation enquiry")}`}>Enquire by email ↗</a>
         </div>
         <p className="fine">An introductory call or enquiry is not a paid service booking.</p>
       </section>
@@ -62,18 +62,24 @@ export default async function Services() {
           <article className="card">
             <span className="card-index">01</span>
             <h3>First launch client</h3>
-            <p className="price">A$825 <small>including GST</small></p>
+            <p className="price">A$660 <small>including GST</small></p>
             <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
           </article>
           <article className="card">
             <span className="card-index">02</span>
             <h3>Second launch client</h3>
-            <p className="price">A$1,650 <small>including GST</small></p>
+            <p className="price">A$1,320 <small>including GST</small></p>
+            <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
+          </article>
+          <article className="card">
+            <span className="card-index">03</span>
+            <h3>Third launch client</h3>
+            <p className="price">A$1,980 <small>including GST</small></p>
             <p>The full Enquiry &amp; Follow-up Setup scope listed above.</p>
           </article>
         </div>
         <div className="honest-note">
-          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. Launch pricing ends after two completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
+          <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. Launch pricing ends after three completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
           <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of discounted work. We will not request Google reviews from launch clients.</p>
         </div>
       </section>

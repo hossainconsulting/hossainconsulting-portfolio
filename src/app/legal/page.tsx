@@ -1,4 +1,4 @@
-import { EMAIL, getSite, pageMetadata } from "@/lib/site";
+import { getSite, pageMetadata } from "@/lib/site";
 
 export async function generateMetadata() {
   return pageMetadata(
@@ -49,7 +49,7 @@ export default async function Legal() {
       <h2>Your legal rights</h2>
       <p>Nothing in these notices excludes, restricts or modifies any consumer guarantee, remedy or other right that cannot lawfully be excluded under the Australian Consumer Law or other applicable law. Where those rights apply, they take precedence over inconsistent wording.</p>
       <h2>Contact and updates</h2>
-      <p>For website questions or concerns, email <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. Revised notices will be dated on this website.</p>
+      <p>For website questions or concerns, email <a href={`mailto:${site.email}`}>{site.email}</a>. Revised notices will be dated on this website.</p>
     </main>
   );
 }
