@@ -14,7 +14,7 @@ export default async function Legal() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Terms &amp; notices.</h1>
-      <p>Updated 14 October 2026. These notices apply to {site.origin}.</p>
+      <p>Updated 15 October 2026. These notices apply to {site.origin}.</p>
       <h2>About this website</h2>
       <p>
         {site.agency
@@ -37,7 +37,8 @@ export default async function Legal() {
           <p>We’re preparing to launch paid services. Payment processing and our service terms are still being finalised. You’re welcome to enquire; we’ll confirm when paid service bookings and payments are available.</p>
           <p>Legal review of the cooling-off period, charge date and cancellation/refund terms is still outstanding.</p>
           <p>A free introductory call or enquiry does not create a paid service booking or engagement. No purchase or service contract is completed through this website.</p>
-          <p>Before accepting paid services, we will provide the finalised service terms in writing, together with the agreed scope, total price including GST, separate software costs and timeline. Payment timing, any cooling-off arrangements and cancellation/refund terms must be settled and provided before you agree to proceed.</p>
+          <p>Before accepting paid services, we will provide the finalised service terms in writing, together with the agreed scope, total price including GST, the software subscriptions you will need and the timeline. Payment timing, any cooling-off arrangements and cancellation/refund terms must be settled and provided before you agree to proceed.</p>
+          <p>You buy and pay for any software, such as a CRM, email platform, advertising account, domain or hosting, directly from its provider, in your own name and with your own card. We do not resell tools, pass on their costs or hold your card details. You pay us only our own fees, through a payment provider we will name before payments open.</p>
           <p>Additional work is quoted in writing and approved before it begins. Website enquiries do not authorise access to your CRM or customer data; necessary access and information handling must be agreed in writing.</p>
         </>
       ) : (
