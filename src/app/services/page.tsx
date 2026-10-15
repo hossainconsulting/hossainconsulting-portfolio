@@ -74,7 +74,7 @@ export default async function Services() {
         </div>
         <div className="honest-note">
           <p>We take launch clients one at a time. A place is allocated at signing and released if cancelled before work starts. Launch pricing ends after two completed projects; thereafter the standard full-package price is A$2,640 including GST.</p>
-          <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of discounted work. We will not request Google reviews from the first three clients.</p>
+          <p>Feedback, reviews, testimonials and case studies are optional and never affect fees or support. There are no rewards for reviews. Publication requires separate written permission, with disclosure of discounted work. We will not request Google reviews from launch clients.</p>
         </div>
       </section>
       <section className="section shaded">

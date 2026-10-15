@@ -27,4 +27,7 @@ Hemayet asked that the first launch price be half the second. It already is: A$8
 - Card headings "Full package" changed to "First launch client" (A$825) and "Second launch client" (A$1,650).
 - "Launch pricing ends after three completed projects" changed to "after two completed projects"; the standard A$2,640 applies thereafter.
 Validated: `npx eslint src/app/services/page.tsx` exit 0; `npm run build` exit 0; `next start` with `Host: hossainconsulting.com`: `/services` shows the two new headings, the A$825 and A$1,650 prices and "after two completed projects", with no "three completed projects" in the launch note.
-Not changed: the review-policy sentence still says "We will not request Google reviews from the first three clients"; Hemayet should decide whether that policy applies to the two launch clients only or still to the first three. Not deployed; text checked server-side only.
+Not deployed; text checked server-side only.
+
+## Addendum: review sentence (2026-10-15)
+Hemayet asked for the review-policy sentence to refer to launch clients. "We will not request Google reviews from the first three clients." is now "We will not request Google reviews from launch clients." (the two launch clients). Validated: `npx eslint src/app/services/page.tsx` exit 0; `npm run build` exit 0; `next start` with `Host: hossainconsulting.com`: `/services` contains the new sentence and no "first three clients". Not deployed.
