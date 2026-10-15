@@ -76,9 +76,11 @@ export default async function Privacy() {
           <p>
             We are preparing a free enquiry checklist for trade and home-service
             businesses. It will be offered on a page within our evidence
-            portfolio at portfolio.hossainconsulting.com, which will publish its
-            own privacy policy and terms before sign-ups open. Until then we do
-            not collect sign-ups for email updates.
+            portfolio at portfolio.hossainconsulting.com, which publishes its
+            own <a href="https://portfolio.hossainconsulting.com/privacy">privacy policy</a> and{" "}
+            <a href="https://portfolio.hossainconsulting.com/terms">terms</a>.
+            We do not collect sign-ups for email updates until we confirm here
+            that they are open.
           </p>
           <p>
             When it is available, you will be asked to tick a box agreeing to

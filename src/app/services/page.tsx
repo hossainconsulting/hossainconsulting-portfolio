@@ -15,7 +15,7 @@ export async function generateMetadata() {
 const journey = [
   ["Enquire", "Email or book a free 20-minute introductory call to discuss your workflow, business needs, size and budget."],
   ["Check suitability", "We assess the CRM plan, access and current setup before accepting work."],
-  ["Agree the scope", "Receive and approve a written scope, total price, software costs and timeline. Service availability and payment arrangements will be confirmed when ready."],
+  ["Agree the scope", "Receive and approve a written scope, total price including GST, the software you will buy directly from its provider, and timeline. Service availability and payment arrangements will be confirmed when ready."],
   ["Build & test", "Build and test the agreed enquiry pipeline and reminders with you."],
   ["Training & handover", "One training session and a written handover documenting the delivered work."],
   ["Support & access removal", "14 days of support after handover for delivered work only. We remove our access afterwards unless further work is agreed."],
