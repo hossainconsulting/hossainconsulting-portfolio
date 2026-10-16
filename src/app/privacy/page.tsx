@@ -14,7 +14,7 @@ export default async function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 15 October 2026.</p>
+      <p>Updated 16 October 2026.</p>
       <p>
         This notice covers website enquiries and introductory call bookings for
         Hemayet Hossain and Hossain Consulting at hemayethossain.com and
@@ -76,9 +76,9 @@ export default async function Privacy() {
           <p>
             We are preparing a free enquiry checklist for trade and home-service
             businesses. It will be offered on a page within our evidence
-            portfolio at portfolio.hossainconsulting.com, which publishes its
-            own <a href="https://portfolio.hossainconsulting.com/privacy">privacy policy</a> and{" "}
-            <a href="https://portfolio.hossainconsulting.com/terms">terms</a>.
+            portfolio at portfolio.hossainconsulting.com. Before sign-ups open,
+            we will confirm the collection page, email provider and applicable
+            privacy notice and terms here.
             We do not collect sign-ups for email updates until we confirm here
             that they are open.
           </p>

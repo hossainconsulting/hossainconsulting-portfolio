@@ -95,6 +95,7 @@ export const projects = [
     status: "In progress · Simulation",
     text: "A fictional solar business, real administration practice. Data quality, access, operational controls and documented checks.",
     slug: "salesforce-sunrise-solar",
+    href: `${PORTFOLIO}/#sunrise`,
     tags: ["Data quality", "Security", "Documentation"],
   },
   {
