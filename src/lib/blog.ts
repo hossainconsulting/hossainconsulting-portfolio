@@ -125,7 +125,7 @@ export const posts: Post[] = [
     references: [
       { label: "My current projects", url: "/projects" },
       { label: "Résumé and recruitment enquiries", url: "/resume" },
-      { label: "SunRise Solar simulated project", url: "https://github.com/hossainconsulting/salesforce-sunrise-solar" },
+      { label: "SunRise Solar status & evidence requests", url: "https://portfolio.hossainconsulting.com/#sunrise" },
       { label: "User Lifecycle SOP", url: "https://github.com/hossainconsulting/salesforce-user-lifecycle-sop" },
     ],
   },
@@ -188,7 +188,7 @@ export const posts: Post[] = [
       "Then add a few simple stages, such as new enquiry, quote sent, booked and lost. Keep it short. If your team can’t remember the stages, there are too many.",
       "Only now is automation worth adding. A reminder when an enquiry has had no reply by the end of the day. A nudge when a quote has gone quiet for a few days. Small, boring automations like these are often the most useful ones.",
       "What to watch for: don’t automate a messy process, or you’ll just make the mess faster. And keep a person in charge of anything a customer sees.",
-      "If you’d like a second pair of eyes on how enquiries move through your business, a free 20-minute call is a good place to start. You’ll get a one-page summary afterwards, whether or not we work together.",
+      "If you’d like to discuss how enquiries move through your business, a free 20-minute introductory call is a good place to start. We can discuss scope, fit and next steps. The call is not an audit, a written report or a paid service booking.",
     ],
     references: [
       { label: "Quote follow-up workflow for Australian tradies", url: "/blog/crm-that-works/quote-follow-up-workflow-for-tradies" },

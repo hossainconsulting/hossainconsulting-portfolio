@@ -11,12 +11,13 @@ export function ProjectList() {
   return (
     <div className="projects">
       {projects.map((p) => (
-        <a className="project" href={`${GITHUB}/${p.slug}`} key={p.slug}>
+        <a className="project" href={p.href ?? `${GITHUB}/${p.slug}`} key={p.slug}>
           <div className="project-number">{p.number}</div>
           <div>
             <p className="eyebrow">{p.type}</p>
             <h3>{p.title}</h3>
             <p>{p.text}</p>
+            {p.href && <p>Private project evidence · walkthrough available on request.</p>}
             <div className="tags">
               {p.tags.map((t) => (
                 <span key={t}>{t}</span>

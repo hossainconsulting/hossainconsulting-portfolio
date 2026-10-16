@@ -59,13 +59,8 @@ export default function Resume() {
         >
           Request my application résumé ↗
         </a>
-        <a
-          className="text-link"
-          href="https://github.com/hossainconsulting/hemayet-hossain-resume"
-        >
-          Résumé repository ↗
-        </a>
       </div>
+      <p>My application résumé is available by email; its working repository is private.</p>
       <div className="prose">
         <h2>Salesforce credentials</h2>
         <ul>
