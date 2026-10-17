@@ -13,10 +13,10 @@ export async function generateMetadata() {
   return pageMetadata(
     "/",
     s.agency
-      ? "Hossain Consulting | CRM & Automation for Trade Businesses"
+      ? "Hossain Consulting | Marketing, CRM & Workflow Services"
       : "Hemayet Hossain | Salesforce Administrator Candidate, Sydney",
     s.agency
-      ? "Founder-led CRM and automation demos for trade and home-service businesses. Hossain Consulting serves clients in New South Wales, Australia only. Explore the work and discuss your workflow with Hemayet Hossain."
+      ? "Website, organic marketing, paid advertising, email/SMS and Salesforce-focused CRM/automation packages, with testing status and transparent prices. Hossain Consulting serves clients in New South Wales, Australia only. Explore the work and discuss your workflow with Hemayet Hossain."
       : "Four Salesforce certifications, an IT degree and an operations perspective. Explore Hemayet Hossain’s self-directed Salesforce portfolio and career background.",
   );
 }
@@ -61,7 +61,7 @@ export default async function Home() {
           <section className="hero wrap">
             <div>
               <p className="eyebrow">
-                <span className="dot" /> SYDNEY · CRM & AUTOMATION
+                <span className="dot" /> SYDNEY · MARKETING, CRM & AUTOMATION
               </p>
               <h1>
                 Less admin.
@@ -71,7 +71,7 @@ export default async function Home() {
                 <em>the actual work.</em>
               </h1>
               <p className="hero-copy">
-                Practical CRM and automation ideas for trade and home-service
+                Website, marketing, CRM and automation services in preparation for trade and home-service
                 businesses. Built and tested by Hemayet Hossain, one workflow at
                 a time. Hossain Consulting serves clients in New South Wales,
                 Australia only.
@@ -89,7 +89,7 @@ export default async function Home() {
                 </a>
               </div>
               <p className="fine">
-                A new practice welcoming enquiries from prospective founding clients. Current portfolio
+                A new practice welcoming enquiries about published standard packages; paid availability remains subject to readiness and written terms. Current portfolio
                 work is simulated, with no client engagements to date.
               </p>
             </div>
@@ -130,27 +130,15 @@ export default async function Home() {
                 </h2>
               </div>
               <p>
-                Start with the business problem, then choose the tools. These
-                are areas I am developing through demos and practical learning.
+                Start with the business problem, then choose the tools. All services remain preparing or testing-required; this is not paid-booking availability.
               </p>
             </div>
             <div className="cards">
               {[
-                [
-                  "01",
-                  "Enquiries & follow-up",
-                  "Explore ways to capture enquiries, organise customer details and keep the next action visible.",
-                ],
-                [
-                  "02",
-                  "CRM & organisation",
-                  "Map information, ownership and handovers into a clear customer workflow.",
-                ],
-                [
-                  "03",
-                  "AI & practical testing",
-                  "Try AI-assisted workflows against fictional scenarios, document limits and keep a human in control.",
-                ],
+                ["01", "Organic Growth", "Website, funnel, blogs, socials, SEO, listings and earned-link research. Setup A$4,950; monthly A$1,980."],
+                ["02", "Paid Advertising", "One platform, offer and campaign. Setup A$880; monthly A$770. Media spend is paid separately to the platform."],
+                ["03", "Email and SMS", "Permission-based campaigns and follow-up. Setup A$1,320; monthly A$660. Sending costs are separate."],
+                ["04", "CRM and automation", "Salesforce-focused enquiry setup. A$2,640 setup; A$330 optional monthly care. Additional workflow tiers are separately scoped."],
               ].map(([n, t, d]) => (
                 <article className="card" key={n}>
                   <span className="card-index">{n}</span>
@@ -159,6 +147,7 @@ export default async function Home() {
                 </article>
               ))}
             </div>
+            <p className="fine">Agency fees are AUD including GST, subject to confirming tax treatment. Subscriptions and usage are extra. Workflow Automation and Integrations: A$660 / A$1,320 / A$2,640 setup tiers; optional care from A$165/month. <a href="/services">Read all quantities, options, costs and testing status ↗</a></p>
           </section>
           <section className="section shaded">
             <div className="wrap section-head">
@@ -296,7 +285,7 @@ export default async function Home() {
                   practice.
                 </p>
                 <p>
-                  Hossain Consulting is preparing to launch paid services.
+                  Hossain Consulting has published its website/marketing, CRM and workflow package information, with untested services clearly marked. Paid services are still preparing.
                   Payment processing and service terms are still being finalised,
                   with legal review outstanding. You can enquire with the agency;
                   paid service bookings and payments will be confirmed when available.
@@ -305,8 +294,8 @@ export default async function Home() {
                   <a className="text-link" href="/about">
                     More about me ↗
                   </a>
-                  <a className="text-link" href={AGENCY}>
-                    Hossain Consulting ↗
+                  <a className="text-link" href={`${AGENCY}/services`}>
+                    Agency services, prices & readiness ↗
                   </a>
                 </div>
               </div>

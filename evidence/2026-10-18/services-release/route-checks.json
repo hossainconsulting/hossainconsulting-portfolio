@@ -1,0 +1,42 @@
+[
+  {
+    "host": "hossainconsulting.com",
+    "path": "/",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/services",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/legal",
+    "status": 200
+  },
+  {
+    "host": "hossainconsulting.com",
+    "path": "/privacy",
+    "status": 200
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/",
+    "status": 200
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/services",
+    "status": 404
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/legal",
+    "status": 200
+  },
+  {
+    "host": "hemayethossain.com",
+    "path": "/privacy",
+    "status": 200
+  }
+]

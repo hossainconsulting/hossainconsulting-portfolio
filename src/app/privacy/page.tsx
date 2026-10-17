@@ -14,7 +14,7 @@ export default async function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 16 October 2026.</p>
+      <p>Updated 18 October 2026.</p>
       <p>
         This notice covers website enquiries and introductory call bookings for
         Hemayet Hossain and Hossain Consulting at hemayethossain.com and
@@ -103,8 +103,8 @@ export default async function Privacy() {
           <p>
             Payment processing is not available yet. When it is, you will pay
             Hossain Consulting&apos;s own fees through a payment provider, which
-            we will name here first. We do not ask for or store your card
-            details. You subscribe to your own tools, such as a CRM, advertising
+            we will name here first. We do not ask for or store your
+            full card details. The selected payment provider may supply transaction references, payment status and limited billing information; the actual provider, fields and retention will be named before payments open. You subscribe to your own tools, such as a CRM, advertising
             account, domain or hosting, in your own name and with your own card,
             and you pay those providers directly.
           </p>
@@ -119,12 +119,12 @@ export default async function Privacy() {
         {" "}before using the booking service. Our NSW service area does not mean
         that information stays in NSW or Australia.
       </p>
-      <h2>Prospective CRM work</h2>
+      <h2>Prospective agency marketing, CRM and workflow services</h2>
       <p>
-        Website enquiries do not authorise access to your CRM or customer data.
+        Website enquiries do not authorise access to advertising, marketing, CRM, automation accounts or customer data.
         Before any client work is accepted, the scope, necessary access and
         handling of client information must be agreed in writing. Clients own
-        their CRM subscription, account and data, and pay their provider directly.
+        their subscriptions, advertising assets, accounts and data, and pay vendors directly. Publishing package information does not activate email/SMS, advertising pixels, AI processing, payments or access to client systems.
       </p>
       <p>
         Client work uses the client’s account, never Hemayet’s personal or test
@@ -133,6 +133,10 @@ export default async function Privacy() {
         after the agreed support period unless further work is agreed.
         Publishing a testimonial or case study requires separate written permission.
       </p>
+      <h2>Service-specific information and referral links</h2>
+      <p>Before agency work uses personal information, the written scope must identify necessary data fields and purpose, delegated access, processing providers/locations, execution-log redaction, retention/deletion, monitoring responsibilities and access removal. Our agency demonstrations use synthetic data; client work stays in approved client-controlled systems. A proposed service is not evidence that its processing has begun.</p>
+      <p>We may recommend external vendors and earn referral commissions. Actual referral relationships are disclosed with the recommendation and agreement; your choice remains independent. An external vendor may use referral attribution or cookies under its own practices. No new referral tracker or client-data sharing is introduced by this catalogue update; actual tracking or processing changes require notice review before activation.</p>
+      {!site.agency && <p>Paid agency services, vendor subscriptions and any future agency-fee payment processing belong to Hossain Consulting, separate from recruitment enquiries on this personal site. See the <a href="https://hossainconsulting.com/privacy">agency privacy notice</a> and <a href="https://hossainconsulting.com/services">services catalogue</a> for the relevant current information.</p>}
       <h2>Access, correction, deletion and complaints</h2>
       <p>
         To ask about information you have sent, request access or correction,
