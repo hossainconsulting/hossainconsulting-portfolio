@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-17T13:15:12.816926+00:00",
+  "checks": [
+    {
+      "url": "https://hossainconsulting.com/",
+      "status": 200,
+      "release_content": "passed"
+    },
+    {
+      "url": "https://hossainconsulting.com/legal",
+      "status": 200,
+      "release_content": "passed"
+    },
+    {
+      "url": "https://hossainconsulting.com/privacy",
+      "status": 200,
+      "release_content": "passed"
+    },
+    {
+      "url": "https://hossainconsulting.com/services",
+      "status": 200,
+      "release_content": "passed"
+    },
+    {
+      "url": "https://hemayethossain.com/",
+      "status": 200,
+      "release_content": "passed"
+    },
+    {
+      "url": "https://hemayethossain.com/legal",
+      "status": 200,
+      "release_content": "passed"
+    },
+    {
+      "url": "https://hemayethossain.com/privacy",
+      "status": 200,
+      "release_content": "passed"
+    }
+  ]
+}
