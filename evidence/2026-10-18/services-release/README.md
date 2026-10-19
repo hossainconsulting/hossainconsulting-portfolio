@@ -19,3 +19,14 @@ The approved preview layout is integrated using isolated catalogue classes to av
 
 ## Limits
 This is a website publication check, not service delivery acceptance, legal review, tax registration verification, payment setup, ad-account access testing, email/SMS deliverability testing or CRM/chat/AI/workflow certification. These remain explicitly incomplete. Live deployment verification is pending and will be recorded separately after release.
+
+## Production verification
+- Release PR: https://github.com/hossainconsulting/hossainconsulting-portfolio/pull/24 (merged).
+- Published main commit: https://github.com/hossainconsulting/hossainconsulting-portfolio/commit/e539a214983387acb8f7dda7492cbbac89a27973.
+- Vercel production commit status: success, deployment https://vercel.com/hossain-consulting/hossainconsulting-portfolio/2XFsbnvwBSGu5BXTTtUUKtnhNckX.
+- Ran `python evidence/2026-10-18/services-release/check-live.py`: exit 0 at 2026-10-17 13:15 UTC (18 October Sydney). Seven public pages returned HTTP 200 and passed release-content assertions. Exact checked URLs are in live-checks.json; no enquiry, booking or payment was submitted.
+- Fresh browser inspection of https://hossainconsulting.com/services#packages confirmed the four published cards; live-desktop.png is the current production screenshot.
+- Personal homepage browser inspection retained Salesforce candidate/recruitment positioning and linked the agency catalogue with preparing status.
+- No vendor accounts, ad campaigns, messaging sends, payment-provider settings, referral trackers or customer systems were activated. All service-readiness limitations above remain.
+
+The initial screenshots and checks describe the local pre-release build. live-desktop.png and live-checks.json describe production after the merged commit. This follow-up evidence changes no application source.
