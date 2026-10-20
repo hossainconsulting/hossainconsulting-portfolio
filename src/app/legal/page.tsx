@@ -15,7 +15,7 @@ export default async function Legal() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Terms &amp; notices.</h1>
-      <p>Updated 18 October 2026. These notices apply to {site.origin}.</p>
+      <p>Updated 20 October 2026. These notices apply to {site.origin}.</p>
       <h2>About this website</h2>
       <p>
         {site.agency
@@ -43,7 +43,7 @@ export default async function Legal() {
           <h2>Client choice and referral commissions</h2>
           <p>We assess suitable existing tools first. Clients choose providers and subscribe in their own names, paying vendors and advertising platforms directly. Our own subscriptions or lifetime memberships do not imply free client licences or resale rights. We may earn a referral commission; any actual relationship is disclosed in writing with the recommendation and in the service agreement before you choose. Referral purchase is optional.</p>
           <h2>Scope, shared work and published prices</h2>
-          <p>The <a href="/services">services catalogue</a> states quantities, optional care, extra usage costs and incomplete checks. Shared assets, connections, reminders, reports, meetings and care tasks are counted once in an itemised scope. No automatic recurring enrolment, budget increase or overage is authorised by an enquiry. Earlier launch-discount eligibility and existing agreements are not changed merely by publishing standard prices; confirm the applicable offer before quoting.</p>
+          <p>The <a href="/services">services catalogue</a> states quantities, optional care, extra usage costs and incomplete checks. Shared assets, connections, reminders, reports, meetings and care tasks are counted once in an itemised scope. No automatic recurring enrolment, budget increase or overage is authorised by an enquiry. New CRM offers use the standard A$2,640 setup price with no CRM launch discount or discounted slot, subject to confirming tax treatment before quotation. Earlier CRM launch-discount tiers are superseded for new offers; existing signed agreements remain unchanged. Separate Workflow Automation prices are unchanged.</p>
           <p>No fixed deposit percentage or setup-payment split is required by this website. Payment amounts, stages and due dates must be agreed in writing. Silence is not acceptance or permission for live activation. Publishing a catalogue does not establish that a service, provider feature or payment flow has passed testing.</p>
           <h2>Agreement, support and exit</h2>
           <p>Before paid work, agree acceptance cases, revisions, delivery dependencies, support dates/channels/hours, monitoring responsibilities, renewal/cancellation, unused allowances, defects and refunds, ownership/licences, data/log retention and offboarding. Included support does not overlap a second care charge. Fixes for agreed delivered-work defects are not silently charged as extras. Vendor cancellation and agency cancellation are separate; vendor payments/refunds remain directly with the vendor.</p>
