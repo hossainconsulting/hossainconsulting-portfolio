@@ -51,6 +51,9 @@ export default async function Privacy() {
         meeting service used for a call has its own information-handling
         arrangements.
       </p>
+      <h2>Website analytics</h2>
+      <p>We use Google Analytics 4 and Google Tag Manager to understand visits to our websites and blogs. The personal website and portfolio use separate reporting from the agency website and blog. Google may process browser, device, approximate location and page interaction information, and Analytics may use cookies. We do not intentionally send names, email addresses, enquiry contents or URL query strings from these websites to Analytics. Advertising personalisation is disabled in our website configuration.</p>
+      <p>You can block analytics through browser controls or Google’s <a href="https://tools.google.com/dlpage/gaoptout">Analytics opt-out browser add-on</a>. See <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites that use its services</a>.</p>
       <h2>Website delivery and external services</h2>
       <p>
         These websites use Vercel for hosting and Cloudflare for domain
