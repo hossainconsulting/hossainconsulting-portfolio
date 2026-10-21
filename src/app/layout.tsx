@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SiteTracking from "@/components/SiteTracking";
 import type { Metadata } from "next";
 import Nav from "@/components/nav/Nav";
 import {
@@ -30,6 +31,7 @@ export default async function RootLayout({
   return (
     <html lang="en-AU">
       <body className={s.agency ? "agency" : "personal"}>
+        <SiteTracking />
         <Nav />
         {children}
         <footer className="footer">
