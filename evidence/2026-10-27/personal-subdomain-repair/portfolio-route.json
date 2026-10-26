@@ -1,0 +1,1 @@
+{"route":{"name":"Personal portfolio subdomain redirect","description":"Route the personal portfolio alias to the existing public portfolio; keep Brain deployments protected.","enabled":true,"route":{"src":"/(.*)","dest":"https://portfolio.hossainconsulting.com/$1","status":307,"has":[{"type":"host","value":"portfolio.hemayethossain.com"}]}}}

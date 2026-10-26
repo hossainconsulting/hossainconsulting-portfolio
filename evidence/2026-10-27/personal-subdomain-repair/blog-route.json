@@ -1,0 +1,1 @@
+{"route":{"name":"Personal blog subdomain redirect","description":"Route the public blog alias to the existing personal blog; keep Brain deployments protected.","enabled":true,"route":{"src":"/(.*)","dest":"https://hemayethossain.com/blog/$1","status":307,"has":[{"type":"host","value":"blog.hemayethossain.com"}]}}}
