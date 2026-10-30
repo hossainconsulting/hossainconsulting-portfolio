@@ -23,8 +23,8 @@ export default function About() {
             Sydney, working towards my first paid Salesforce or IT role.
           </p>
           <p>
-            I currently work as a Customer Delivery Driver and Yard Marshal in
-            Coles online fulfilment. Before that, I worked in customer service
+            I currently work as a CFC Customer Delivery Driver in Coles online
+            fulfilment. Before that, I worked in customer service
             and independently managed transport operations. Clear communication,
             careful records and reliable processes have been part of my
             day-to-day work for years.

@@ -83,7 +83,7 @@ export default function Resume() {
         <p>
           <strong>Coles Online Hub Store, Alexandria</strong>
           <br />
-          Customer Delivery Driver & Yard Marshal · August 2024–present
+          CFC Customer Delivery Driver · August 2024–present
         </p>
         <p>
           Earlier experience includes PH Pacific (2022–2024), Creation
