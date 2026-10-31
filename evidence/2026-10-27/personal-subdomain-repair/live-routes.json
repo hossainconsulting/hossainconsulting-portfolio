@@ -1,0 +1,56 @@
+{
+  "routes": [
+    {
+      "id": "21ea3567-8060-4fdf-a9c2-da29b84590c0",
+      "name": "Personal blog subdomain redirect",
+      "description": "Route the public blog alias to the existing personal blog; keep Brain deployments protected.",
+      "enabled": true,
+      "staged": false,
+      "route": {
+        "src": "/(.*)",
+        "dest": "https://hemayethossain.com/blog/$1",
+        "status": 307,
+        "has": [
+          {
+            "type": "host",
+            "value": "blog.hemayethossain.com"
+          }
+        ]
+      },
+      "srcSyntax": "path-to-regexp",
+      "routeType": "redirect"
+    },
+    {
+      "id": "eb6f83b3-4892-4ac3-8c8d-99ce7346f541",
+      "name": "Personal portfolio subdomain redirect",
+      "description": "Route the personal portfolio alias to the existing public portfolio; keep Brain deployments protected.",
+      "enabled": true,
+      "staged": false,
+      "route": {
+        "src": "/(.*)",
+        "dest": "https://portfolio.hossainconsulting.com/$1",
+        "status": 307,
+        "has": [
+          {
+            "type": "host",
+            "value": "portfolio.hemayethossain.com"
+          }
+        ]
+      },
+      "srcSyntax": "path-to-regexp",
+      "routeType": "redirect"
+    }
+  ],
+  "version": {
+    "id": "21114124-2666-4ae8-824a-7501717c2f4c",
+    "s3Key": "aef737ee3f9c8597",
+    "createdBy": "",
+    "lastModified": 1793025876303,
+    "ruleCount": 2,
+    "alias": "hossainconsulting-portfolio-1cd05b-routes-hossain-consulting.vercel.app"
+  },
+  "limit": {
+    "maxRoutes": 100,
+    "currentRoutes": 2
+  }
+}

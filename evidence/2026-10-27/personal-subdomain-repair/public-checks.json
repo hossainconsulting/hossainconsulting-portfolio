@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://blog.hemayethossain.com/?source=subdomain-check",
+    "status": 200,
+    "finalUrl": "https://hemayethossain.com/blog?source=subdomain-check",
+    "title": "Blog | Hemayet Hossain"
+  },
+  {
+    "url": "https://portfolio.hemayethossain.com/privacy?source=subdomain-check",
+    "status": 200,
+    "finalUrl": "https://portfolio.hossainconsulting.com/privacy?source=subdomain-check",
+    "title": "Privacy Policy | Hossain Consulting"
+  },
+  {
+    "url": "https://hemayethossain.com",
+    "status": 200,
+    "finalUrl": "https://hemayethossain.com/",
+    "title": "Hemayet Hossain | Salesforce Administrator Candidate, Sydney"
+  },
+  {
+    "url": "https://hossainconsulting.com",
+    "status": 200,
+    "finalUrl": "https://hossainconsulting.com/",
+    "title": "Hossain Consulting | Marketing, CRM &amp; Workflow Services"
+  },
+  {
+    "url": "https://portfolio.hossainconsulting.com",
+    "status": 200,
+    "finalUrl": "https://portfolio.hossainconsulting.com/",
+    "title": "Hemayet Hossain — Salesforce Administrator &amp; CRM Support Candidate"
+  }
+]
