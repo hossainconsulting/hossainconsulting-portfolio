@@ -15,13 +15,16 @@ export default async function Legal() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Terms &amp; notices.</h1>
-      <p>Updated 20 October 2026. These notices apply to {site.origin}.</p>
+      <p>Updated 22 October 2026. These notices apply to {site.origin}.</p>
       <h2>About this website</h2>
       <p>
         {site.agency
           ? "Hossain Consulting is a developing CRM and automation practice presented by Hemayet Hossain. The website publishes website/organic marketing, paid advertising, email/SMS, CRM and workflow packages with standard prices, scope limits and explicit testing status. Paid availability remains subject to readiness and final written terms; portfolio work remains simulated."
           : "This is Hemayet Hossain’s professional portfolio, introducing his qualifications, learning projects and career interests."}
       </p>
+      <h2>Honesty and current stage</h2>
+      <p>We are learning, building and testing. We have no completed agency client engagements, client results, testimonials or customer referrals to present. Hemayet is building evidence for his first paid Salesforce role; his existing operations employment is separate. Simulations and incomplete projects are labelled. We do not offer a get-rich-quick scheme or promise income, jobs, rankings, leads, sales or returns.</p>
+      <p>Before launching paid agency services, we will seek advice from a lawyer and an insurance broker and address the resulting requirements. That advice has not yet been obtained, and this notice does not claim legal approval, insurance cover or launch readiness. Paid bookings remain closed pending final terms, required arrangements, testing and Hemayet’s approval.</p>
       <h2>Website use</h2>
       <p>You may view this website and share links for legitimate personal or business purposes. Do not interfere with its operation, attempt unauthorised access or misuse another person’s information. Website content does not grant permission to use third-party trademarks or imply endorsement.</p>
       <h2>Portfolio and information</h2>
