@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
   return [
     ...(s.agency
-      ? ["/", "/services", "/privacy", "/legal"]
+      ? ["/", "/services", "/privacy", "/terms", "/legal"]
       : [
           "/",
           "/projects",
