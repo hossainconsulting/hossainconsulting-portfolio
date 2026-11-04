@@ -14,13 +14,58 @@ export default async function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 18 October 2026.</p>
+      <p>Updated 4 November 2026.</p>
       <p>
         This notice covers website enquiries and introductory call bookings for
         Hemayet Hossain and Hossain Consulting at hemayethossain.com and
         hossainconsulting.com. Contact Hemayet about privacy using the email
         address below.
       </p>
+      {site.agency && (
+        <>
+          <h2>Who we are</h2>
+          <p>
+            Hossain Consulting (ABN 23 732 235 722), Sydney NSW (&ldquo;we&rdquo;,
+            &ldquo;us&rdquo;) respects your privacy. We aim to follow the
+            Australian Privacy Principles in the Privacy Act 1988 (Cth). We do
+            not sell your personal information.
+          </p>
+          <h2>What we collect and how</h2>
+          <ul>
+            <li>Contact details you give us: your name, business name, email address, phone number and suburb.</li>
+            <li>What you tell us about your enquiry or job, including any photos you choose to upload.</li>
+            <li>Messages you send us by email, website chat, web form, phone or text.</li>
+            <li>Business contact details that a business has published on its own website, when we contact that business about our services.</li>
+            <li>Basic website data such as pages visited and device type, through analytics tools.</li>
+          </ul>
+          <p>
+            We collect this directly from you (forms, chat, email, calls), from
+            your business&apos;s own public website, and automatically when you
+            use our website. We use it to reply to your enquiry and provide our
+            services, to arrange and confirm bookings, to send you information
+            you&apos;ve agreed to receive, and to run and improve our business
+            and website and meet our legal obligations.
+          </p>
+          <h2>Marketing and your consent</h2>
+          <p>
+            We only send marketing messages where we have your consent, either
+            because you gave it or because the law allows us to infer it. Every
+            marketing email or message says who we are and has a working way to
+            unsubscribe. We act on unsubscribe requests within 5 working days.
+          </p>
+          <h2>Who we share it with</h2>
+          <p>
+            Only service providers who help us run the business, such as email,
+            website, chat, CRM, booking and phone providers. Some are based or
+            store data outside Australia (for example in the United States). We
+            choose providers that protect personal information, and we share
+            only what they need. We do not share your information with anyone
+            else unless the law requires it or you agree. We keep information
+            only as long as we need it for these purposes or as the law
+            requires, then delete or de-identify it.
+          </p>
+        </>
+      )}
       <h2>Enquiries and correspondence</h2>
       <p>
         Email links open your email application. When you send an enquiry,
@@ -149,6 +194,7 @@ export default async function Privacy() {
         include unnecessary sensitive information.
       </p>
       <p>
+        We reply to access and correction requests within 30 days.
         Hemayet may ask for enough information to verify that the request
         relates to you. Some records may need to be retained for a legal
         obligation or dispute. If a request cannot be fulfilled, Hemayet will
@@ -157,7 +203,7 @@ export default async function Privacy() {
       <p>
         For a privacy complaint, use the same email address and describe your
         concern and the outcome you seek. Hemayet will review the concern and
-        respond. You can also consult the
+        respond within 30 days. You can also consult the
         <a href="https://www.oaic.gov.au/privacy/privacy-complaints"> OAIC’s privacy complaint information</a>
         {" "}about available external complaint options.
       </p>
@@ -166,7 +212,8 @@ export default async function Privacy() {
         This notice is dated when revised. New forms, payment collection,
         analytics or client-data workflows require a review of the notice and
         relevant collection information before introduction. See also the
-        <a href="/legal"> website terms and notices</a>.
+        <a href="/legal"> website terms and notices</a>
+        {site.agency && <> and our <a href="/terms">Terms and Conditions</a></>}.
       </p>
     </main>
   );

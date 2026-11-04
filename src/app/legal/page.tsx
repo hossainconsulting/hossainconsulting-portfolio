@@ -16,6 +16,13 @@ export default async function Legal() {
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Terms &amp; notices.</h1>
       <p>Updated 20 October 2026. These notices apply to {site.origin}.</p>
+      {site.agency && (
+        <p>
+          Our <a href="/terms">Terms and Conditions</a> (updated 4 November
+          2026) apply to the website, website chat, demos and services. Where
+          they differ from this page, the Terms and Conditions apply.
+        </p>
+      )}
       <h2>About this website</h2>
       <p>
         {site.agency
