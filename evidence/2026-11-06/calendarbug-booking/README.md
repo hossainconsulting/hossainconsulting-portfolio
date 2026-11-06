@@ -35,4 +35,5 @@ Limitations / checks not run:
 - Production sites were not deployed or merged. Live hemayethossain.com and hossainconsulting.com were not rechecked after this local build.
 - Dated evidence files and internal brand notes in this repository still contain the old Calendly URL or the name Calendly. They were left as historical records.
 
-Related issue/PR: pull request opened from `cursor/calendarbug-booking-links-48cd` for review. The PR URL is recorded after push.
+Related issue/PR: https://github.com/hossainconsulting/hossainconsulting-portfolio/pull/32
+Remote commit for the booking change: ae2f42dcd4121867e1fbbcc19451ae84a8003c67 on `cursor/calendarbug-booking-links-48cd`. This evidence note was updated with that PR link after the pull request was opened.
