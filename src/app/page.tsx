@@ -1,6 +1,5 @@
 import {
   AGENCY,
-  BOOK_CLIENT_CALL,
   EMAIL_AGENCY,
   PERSONAL,
   GITHUB,
@@ -21,7 +20,8 @@ export async function generateMetadata() {
   );
 }
 export default async function Home() {
-  const { agency } = await getSite();
+  const site = await getSite();
+  const { agency } = site;
   const schema = agency
     ? {
         "@context": "https://schema.org",
@@ -81,7 +81,7 @@ export default async function Home() {
                 <p>Free introductory calls remain available. An enquiry or introductory call is not a paid service booking.</p>
               </div>
               <div className="actions">
-                <a className="button" href={BOOK_CLIENT_CALL}>
+                <a className="button" href={site.bookCall}>
                   Book a free 20-min call ↗
                 </a>
                 <a className="text-link" href="/services">

@@ -10,7 +10,7 @@ export async function generateMetadata() {
 }
 
 export default async function Services() {
-  const { agency } = await getSite();
-  if (!agency) notFound();
-  return <Catalogue />;
+  const site = await getSite();
+  if (!site.agency) notFound();
+  return <Catalogue bookingUrl={site.bookCall} />;
 }

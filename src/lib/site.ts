@@ -47,12 +47,16 @@ export const PERSONAL_SOCIAL = [
     href: "https://www.salesforce.com/trailblazer/hemayethossain",
   },
 ];
-// One shared Calendly booking type serves clients and recruiters (the
-// Calendly plan allows one active event type).
-export const BOOK_CALL =
-  "https://calendly.com/hemayet_hossain/20-minute-intro-call";
-export const BOOK_CLIENT_CALL = BOOK_CALL;
-export const BOOK_RECRUITER_CALL = BOOK_CALL;
+// Introductory bookings use CalendarBug. The personal site and the agency
+// site each have their own event. The services catalogue injects the active
+// host's URL in place of __BOOKING_URL__.
+export const BOOK_CALL_PERSONAL =
+  "https://www.calendarbug.com/book/hemayet-hossain/salesforce-intro-call";
+export const BOOK_CALL_AGENCY =
+  "https://www.calendarbug.com/book/hemayet-hossain/free-introductory-call";
+export function bookCallFor(agency: boolean) {
+  return agency ? BOOK_CALL_AGENCY : BOOK_CALL_PERSONAL;
+}
 export async function getSite() {
   const host = ((await headers()).get("host") || "")
     .split(":")[0]
@@ -64,6 +68,7 @@ export async function getSite() {
     origin: agency ? AGENCY : PERSONAL,
     name: agency ? "Hossain Consulting" : "Hemayet Hossain",
     email: agency ? EMAIL_AGENCY : EMAIL_PERSONAL,
+    bookCall: bookCallFor(agency),
   };
 }
 export async function pageMetadata(

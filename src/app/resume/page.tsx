@@ -1,4 +1,4 @@
-import { pageMetadata, EMAIL_PERSONAL, BOOK_RECRUITER_CALL } from "@/lib/site";
+import { pageMetadata, EMAIL_PERSONAL, getSite } from "@/lib/site";
 export async function generateMetadata() {
   return pageMetadata(
     "/resume",
@@ -33,7 +33,8 @@ const hiringSteps = [
   ],
 ];
 
-export default function Resume() {
+export default async function Resume() {
+  const { bookCall } = await getSite();
   return (
     <main id="main" className="wrap section">
       <p className="eyebrow">RECRUITMENT</p>
@@ -50,7 +51,7 @@ export default function Resume() {
         Australian citizen · Open to roles in Australia and overseas
       </p>
       <div className="actions">
-        <a className="button" href={BOOK_RECRUITER_CALL}>
+        <a className="button" href={bookCall}>
           Book a 20-min chat ↗
         </a>
         <a
@@ -119,7 +120,7 @@ export default function Resume() {
           ))}
         </ol>
         <div className="actions">
-          <a className="button" href={BOOK_RECRUITER_CALL}>
+          <a className="button" href={bookCall}>
             Book a 20-min chat ↗
           </a>
           <a className="text-link" href="/projects">

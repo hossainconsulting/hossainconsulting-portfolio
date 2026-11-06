@@ -14,7 +14,7 @@ export default async function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 4 November 2026.</p>
+      <p>Updated 6 November 2026.</p>
       <p>
         This notice covers website enquiries and introductory call bookings for
         Hemayet Hossain and Hossain Consulting at hemayethossain.com and
@@ -82,17 +82,16 @@ export default async function Privacy() {
       </p>
       <h2>Introductory call bookings</h2>
       <p>
-        Booking links open Calendly, an external scheduling service. Review the
+        Booking links open CalendarBug, an external scheduling service. Review the
         information requested on its booking page before submitting it.
         Information you provide for a booking is used to arrange and prepare
         for the call. A free introductory call is separate from a paid service
         booking.
       </p>
       <p>
-        Calendly’s
-        <a href="https://calendly.com/legal/privacy-notice"> privacy notice</a>
-        {" "}explains its information practices and its role in processing
-        booking information for customers. Any external
+        CalendarBug’s
+        <a href="https://www.calendarbug.com/privacy"> privacy notice</a>
+        {" "}explains its information practices. Any external
         meeting service used for a call has its own information-handling
         arrangements.
       </p>
@@ -103,7 +102,7 @@ export default async function Privacy() {
       <p>
         These websites use Vercel for hosting and Cloudflare for domain
         services. Email sent to hemayet@hossainconsulting.com or
-        hemayet@hemayethossain.com is routed through Google’s mail service. Introductory bookings use Calendly.
+        hemayet@hemayethossain.com is routed through Google’s mail service. Introductory bookings use CalendarBug.
       </p>
       <p>
         Visiting a website involves technical connection information, such as
@@ -160,10 +159,8 @@ export default async function Privacy() {
       )}
       <h2>Overseas processing</h2>
       <p>
-        Calendly’s privacy notice states that information it collects may be
-        processed and stored in the United States or other countries where
-        Calendly or its service providers operate. Review its
-        <a href="https://calendly.com/legal/privacy-notice"> privacy notice</a>
+        Review CalendarBug’s
+        <a href="https://www.calendarbug.com/privacy"> privacy notice</a>
         {" "}before using the booking service. Our NSW service area does not mean
         that information stays in NSW or Australia.
       </p>
