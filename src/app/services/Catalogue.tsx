@@ -3,7 +3,7 @@
 import type { MouseEvent } from "react";
 import catalogue from "@/content/services-catalogue.json";
 
-export default function Catalogue() {
+export default function Catalogue({ bookingUrl }: { bookingUrl: string }) {
   function toggleDetails(event: MouseEvent<HTMLDivElement>) {
     const target = event.target as HTMLElement;
     const button = target.closest<HTMLButtonElement>("button#expand, button#collapse");
@@ -13,5 +13,6 @@ export default function Catalogue() {
     });
   }
   // Build-time, reviewed catalogue content only; never receives visitor HTML.
-  return <div id="top" className="service-catalogue" onClick={toggleDetails} dangerouslySetInnerHTML={{ __html: catalogue.html }} />;
+  const html = catalogue.html.replaceAll("__BOOKING_URL__", bookingUrl);
+  return <div id="top" className="service-catalogue" onClick={toggleDetails} dangerouslySetInnerHTML={{ __html: html }} />;
 }

@@ -1,10 +1,9 @@
 import {
-  BOOK_CLIENT_CALL,
-  BOOK_RECRUITER_CALL,
   EMAIL_AGENCY,
   EMAIL_PERSONAL,
   GITHUB,
   PORTFOLIO,
+  getSite,
   projects,
 } from "@/lib/site";
 export function ProjectList() {
@@ -35,7 +34,8 @@ export function ProjectList() {
     </div>
   );
 }
-export function Contact({ agency = false }: { agency?: boolean }) {
+export async function Contact({ agency = false }: { agency?: boolean }) {
+  const { bookCall } = await getSite();
   return (
     <section className="contact-band" id="contact">
       <div className="wrap contact-inner">
@@ -59,7 +59,7 @@ export function Contact({ agency = false }: { agency?: boolean }) {
         <div className="contact-actions">
           <a
             className="button light"
-            href={agency ? BOOK_CLIENT_CALL : BOOK_RECRUITER_CALL}
+            href={bookCall}
           >
             {agency ? "Book a free 20-min call" : "Book a 20-min chat"}{" "}
             <span>↗</span>
