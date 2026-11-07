@@ -50,8 +50,9 @@ export default async function Privacy() {
           <p>
             We only send marketing messages where we have your consent, either
             because you gave it or because the law allows us to infer it. Every
-            marketing email or message says who we are and has a working way to
-            unsubscribe. We act on unsubscribe requests within 5 working days.
+            marketing email or message says who we are and has a working way to{" "}
+            <a href="/unsubscribe">unsubscribe</a>. We act on unsubscribe
+            requests within 5 working days.
           </p>
           <h2>Who we share it with</h2>
           <p>

@@ -51,6 +51,7 @@ export default async function RootLayout({
               <a href={GITHUB}>GitHub ↗</a>
               <a href={`mailto:${s.email}`}>Email ↗</a>
               <a href="/privacy">Privacy</a>
+              <a href="/unsubscribe">Unsubscribe</a>
               {s.agency && <a href="/terms">Terms</a>}
               <a href="/legal">{s.agency ? "Notices" : "Terms & notices"}</a>
             </div>

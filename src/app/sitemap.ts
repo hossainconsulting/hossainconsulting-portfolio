@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
   return [
     ...(s.agency
-      ? ["/", "/services", "/privacy", "/terms", "/legal"]
+      ? ["/", "/services", "/privacy", "/terms", "/legal", "/unsubscribe"]
       : [
           "/",
           "/projects",
@@ -24,6 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           "/resume",
           "/privacy",
           "/legal",
+          "/unsubscribe",
         ]),
     ...blog,
   ].map((path) => ({
