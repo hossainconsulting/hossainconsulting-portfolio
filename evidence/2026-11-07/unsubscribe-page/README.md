@@ -38,4 +38,5 @@ Limitations / checks not run:
 - `npm run lint` remains exit 1 for the unrelated existing evidence script.
 
 Related issue/PR:
-- Draft pull request for branch `cursor/unsubscribe-page-2b37`. Not merged. Not mixed with pull request #28.
+- Draft pull request: https://github.com/hossainconsulting/hossainconsulting-portfolio/pull/33
+- Branch `cursor/unsubscribe-page-2b37`. Not merged. Not mixed with pull request #28.
