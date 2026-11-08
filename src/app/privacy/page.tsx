@@ -14,7 +14,7 @@ export default async function Privacy() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · WEBSITE INFORMATION</p>
       <h1 className="page-title">Privacy.</h1>
-      <p>Updated 6 November 2026.</p>
+      <p>Updated 8 November 2026.</p>
       <p>
         This notice covers website enquiries and introductory call bookings for
         Hemayet Hossain and Hossain Consulting at hemayethossain.com and
@@ -122,30 +122,41 @@ export default async function Privacy() {
         <>
           <h2>Free checklist and email updates</h2>
           <p>
-            We are preparing a free enquiry checklist for trade and home-service
-            businesses. It will be offered on a page within our evidence
-            portfolio at portfolio.hossainconsulting.com. Before sign-ups open,
-            we will confirm the collection page, email provider and applicable
-            privacy notice and terms here.
-            We do not collect sign-ups for email updates until we confirm here
-            that they are open.
+            A free enquiry-leak checklist for trade and home-service businesses
+            is open at{" "}
+            <a href="https://portfolio.hossainconsulting.com/checklist">
+              portfolio.hossainconsulting.com/checklist
+            </a>
+            . The form asks for your first name and email address. You can also
+            give a business name and choose what you do. You tick a box agreeing
+            to the checklist and related tips before anything is sent. The
+            form does not ask for payment or card details.
           </p>
           <p>
-            When it is available, you will be asked to tick a box agreeing to
-            receive the checklist and related emails. We will keep your name,
-            email address, business name and trade, the time you agreed, the
-            wording you agreed to and the page you used. We use this only to
-            send the checklist and the emails you agreed to, and to reply to
-            you. We do not sell your details. Every email will have an
-            unsubscribe link, and we will act on it promptly.
+            We send the checklist in one email, then a short series you can
+            leave with one click. Every email has an unsubscribe link, and we
+            act on unsubscribe requests within 5 working days. We use these
+            details to send the checklist and the emails you agreed to, and to
+            reply to you. We do not sell them.
           </p>
           <p>
-            We keep subscriber details while you are subscribed and for up to 24
-            months after your last interaction, plus a record that you
-            unsubscribed so we do not email you again. We will use an email
-            platform to send these emails. It will store your details and may
-            process them in the United States or other countries. We will name
-            the provider here before sign-ups open.
+            We keep your first name, email address, business name if you gave
+            one, and what you do if you chose one. We also keep the time we received
+            the request, the date of the consent wording you ticked, the page
+            you used, and campaign tags from the link when it had them (such as
+            utm_source). We keep subscriber details while you are subscribed and
+            for up to 24 months after your last interaction, plus a record that
+            you unsubscribed so we do not email you again.
+          </p>
+          <p>
+            An email service sends these messages and stores the details it
+            needs to do that. It may process them outside Australia. The
+            checklist page links to its own{" "}
+            <a href="https://portfolio.hossainconsulting.com/privacy">
+              privacy policy
+            </a>{" "}
+            and{" "}
+            <a href="https://portfolio.hossainconsulting.com/terms">terms</a>.
           </p>
           <h2>Payments for our own fees</h2>
           <p>
