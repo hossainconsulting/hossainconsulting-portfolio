@@ -45,4 +45,6 @@ Limitations / checks not run:
 - `npm run lint` remains exit 1 for the unrelated existing evidence script.
 
 Related issue/PR:
+- https://github.com/hossainconsulting/hossainconsulting-portfolio/pull/34
+- Commit: https://github.com/hossainconsulting/hossainconsulting-portfolio/commit/5766d48f814b00abc8645d09971823a9b7299fe8
 - Branch `cursor/privacy-unsubscribe-copy-3158`. Not merged. Not deployed.
