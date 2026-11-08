@@ -18,7 +18,7 @@ export default async function Unsubscribe() {
     <main id="main" className="wrap section prose">
       <p className="eyebrow">{site.name.toUpperCase()} · EMAIL PREFERENCES</p>
       <h1 className="page-title">Unsubscribe.</h1>
-      <p>Updated 7 November 2026.</p>
+      <p>Updated 8 November 2026.</p>
       <p>
         To stop marketing email from {site.name}, send an unsubscribe request
         to <a href={`mailto:${site.email}`}>{site.email}</a>. This opens your
@@ -30,10 +30,8 @@ export default async function Unsubscribe() {
         </a>
       </p>
       <p>
-        Include the email address you want removed.
-        {site.agency && (
-          <> We act on unsubscribe requests within 5 working days.</>
-        )}
+        Include the email address you want removed. We act on unsubscribe
+        requests within 5 working days.
       </p>
       <p>
         See the <a href="/privacy">privacy notice</a>
