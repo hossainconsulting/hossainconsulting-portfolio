@@ -37,7 +37,7 @@ export const PERSONAL_SOCIAL = [
   },
   { label: "Instagram", href: "https://www.instagram.com/sirhemayethossain/" },
   { label: "X", href: "https://x.com/hemayetAI" },
-  { label: "Reddit", href: "https://www.reddit.com/user/hemayetAI/" },
+  { label: "Reddit", href: "https://www.reddit.com/user/SalesforceAI/" },
   { label: "TikTok", href: "https://www.tiktok.com/@sirhemayethossain" },
   { label: "YouTube", href: "https://www.youtube.com/@sirhemayethossain" },
   { label: "Pinterest", href: "https://au.pinterest.com/hemayethossain/" },
